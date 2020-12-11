@@ -1,0 +1,1090 @@
+<!doctype html>
+
+<title>7x7</title>
+<link rel="icon" href="../data/puzzle_images/2021-02-15.jpg">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.button {
+  background-color: #CCCCCC;
+  border: none;
+  color: white;
+  padding: 8px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: monospace;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #941919;
+  color: white;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* On a max screen, it'll show twenty-four columns */
+.column {
+  -ms-flex: 4.15%; /* IE10 */
+  flex: 4.15%;
+  max-width: 4.15%;
+  padding: 0 5px;
+}
+
+.column img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* When screen is skinnier, make eigteen columns */
+@media screen and (max-width: 1050px) {
+  .column {
+    -ms-flex: 5.5%;
+    flex: 5.5%;
+    max-width: 50%;
+  }
+}
+
+/* When screen is skinnier, make twelve columns */
+@media screen and (max-width: 950px) {
+  .column {
+    -ms-flex: 8.3%;
+    flex: 8.3%;
+    max-width: 50%;
+  }
+}
+
+/* When screen is skinnier, make six columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 16.6%;
+    flex: 16.6%;
+    max-width: 50%;
+  }
+}
+
+/* When screen is skinnier, make four columns */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 50%;
+  }
+}
+
+img {
+    outline: #333 solid 2px;
+    opacity: 0.7;
+}
+
+.pictureContainer img:hover {
+    outline: #941919 solid 4px;
+    opacity: 1;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 50px;
+  background-color: #941919;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  opacity: 0.8;
+  font-family: monospace;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+</style>
+
+<body style="background-color:#B3B3B3;">
+
+<div class="header">
+  daily 7x7 puzzles by malaika handa, coming 2021
+  <button class="button" onclick="location.href='about.html'">(why?)</button>
+</div>
+
+<div class="row">
+<!--   <div class="column">
+    <div class="pictureContainer">
+      <a href="dates/01-01-2020.html">
+        <img src="../data/puzzle_images/2021-01-01.jpg">
+      </a>
+    </div>
+  </div> -->
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-01.jpg" title="01-01">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-02.jpg" title="01-02">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-04.jpg" title="01-04">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-05.jpg" title="01-05">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-06.jpg" title="01-06">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-07.jpg" title="01-07">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-08.jpg" title="01-08">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-09.jpg" title="01-09">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-11.jpg" title="01-11">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-12.jpg" title="01-12">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-13.jpg" title="01-13">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-14.jpg" title="01-14">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-15.jpg" title="01-15">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-16.jpg" title="01-16">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-18.jpg" title="01-18">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-19.jpg" title="01-19">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-20.jpg" title="01-20">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-21.jpg" title="01-21">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-22.jpg" title="01-22">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-23.jpg" title="01-23">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-25.jpg" title="01-25">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-26.jpg" title="01-26">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-27.jpg" title="01-27">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-28.jpg" title="01-28">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-29.jpg" title="01-29">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-01-30.jpg" title="01-30">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-01.jpg" title="02-01">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-02.jpg" title="02-02">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-03.jpg" title="02-03">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-04.jpg" title="02-04">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-05.jpg" title="02-05">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-06.jpg" title="02-06">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-08.jpg" title="02-08">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-09.jpg" title="02-09">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-10.jpg" title="02-10">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-11.jpg" title="02-11">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-12.jpg" title="02-12">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-13.jpg" title="02-13">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-15.jpg" title="02-15">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-16.jpg" title="02-16">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-17.jpg" title="02-17">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-18.jpg" title="02-18">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-19.jpg" title="02-19">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-20.jpg" title="02-20">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-22.jpg" title="02-22">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-23.jpg" title="02-23">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-24.jpg" title="02-24">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-25.jpg" title="02-25">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-26.jpg" title="02-26">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-02-27.jpg" title="02-27">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-01.jpg" title="03-01">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-02.jpg" title="03-02">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-03.jpg" title="03-03">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-04.jpg" title="03-04">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-05.jpg" title="03-05">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-06.jpg" title="03-06">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-08.jpg" title="03-08">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-09.jpg" title="03-09">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-10.jpg" title="03-10">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-11.jpg" title="03-11">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-12.jpg" title="03-12">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-13.jpg" title="03-13">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-15.jpg" title="03-15">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-16.jpg" title="03-16">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-17.jpg" title="03-17">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-18.jpg" title="03-18">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-19.jpg" title="03-19">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-20.jpg" title="03-20">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-22.jpg" title="03-22">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-23.jpg" title="03-23">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-24.jpg" title="03-24">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-25.jpg" title="03-25">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-26.jpg" title="03-26">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-27.jpg" title="03-27">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-29.jpg" title="03-29">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-30.jpg" title="03-30">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-03-31.jpg" title="03-31">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-01.jpg" title="04-01">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-02.jpg" title="04-02">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-03.jpg" title="04-03">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-05.jpg" title="04-05">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-06.jpg" title="04-06">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-07.jpg" title="04-07">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-08.jpg" title="04-08">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-09.jpg" title="04-09">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-10.jpg" title="04-10">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-12.jpg" title="04-12">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-13.jpg" title="04-13">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-14.jpg" title="04-14">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-15.jpg" title="04-15">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-16.jpg" title="04-16">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-17.jpg" title="04-17">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-19.jpg" title="04-19">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-20.jpg" title="04-20">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-21.jpg" title="04-21">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-22.jpg" title="04-22">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-23.jpg" title="04-23">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-24.jpg" title="04-24">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-26.jpg" title="04-26">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-27.jpg" title="04-27">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-28.jpg" title="04-28">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-29.jpg" title="04-29">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-04-30.jpg" title="04-30">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-01.jpg" title="05-01">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-03.jpg" title="05-03">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-04.jpg" title="05-04">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-05.jpg" title="05-05">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-06.jpg" title="05-06">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-07.jpg" title="05-07">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-08.jpg" title="05-08">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-10.jpg" title="05-10">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-11.jpg" title="05-11">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-12.jpg" title="05-12">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-13.jpg" title="05-13">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-14.jpg" title="05-14">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-15.jpg" title="05-15">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-17.jpg" title="05-17">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-18.jpg" title="05-18">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-19.jpg" title="05-19">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-20.jpg" title="05-20">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-21.jpg" title="05-21">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-22.jpg" title="05-22">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-24.jpg" title="05-24">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-25.jpg" title="05-25">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-26.jpg" title="05-26">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-27.jpg" title="05-27">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-28.jpg" title="05-28">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-29.jpg" title="05-29">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-05-31.jpg" title="05-31">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-01.jpg" title="06-01">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-02.jpg" title="06-02">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-03.jpg" title="06-03">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-04.jpg" title="06-04">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-05.jpg" title="06-05">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-07.jpg" title="06-07">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-08.jpg" title="06-08">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-09.jpg" title="06-09">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-10.jpg" title="06-10">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-11.jpg" title="06-11">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-12.jpg" title="06-12">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-14.jpg" title="06-14">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-15.jpg" title="06-15">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-16.jpg" title="06-16">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-17.jpg" title="06-17">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-18.jpg" title="06-18">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-19.jpg" title="06-19">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-21.jpg" title="06-21">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-22.jpg" title="06-22">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-23.jpg" title="06-23">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-24.jpg" title="06-24">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-25.jpg" title="06-25">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-26.jpg" title="06-26">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-28.jpg" title="06-28">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-29.jpg" title="06-29">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-06-30.jpg" title="06-30">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-01.jpg" title="07-01">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-02.jpg" title="07-02">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-03.jpg" title="07-03">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-05.jpg" title="07-05">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-06.jpg" title="07-06">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-07.jpg" title="07-07">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-08.jpg" title="07-08">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-09.jpg" title="07-09">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-10.jpg" title="07-10">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-12.jpg" title="07-12">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-13.jpg" title="07-13">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-14.jpg" title="07-14">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-15.jpg" title="07-15">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-16.jpg" title="07-16">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-17.jpg" title="07-17">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-19.jpg" title="07-19">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-20.jpg" title="07-20">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-21.jpg" title="07-21">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-22.jpg" title="07-22">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-23.jpg" title="07-23">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-24.jpg" title="07-24">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-26.jpg" title="07-26">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-27.jpg" title="07-27">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-28.jpg" title="07-28">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-29.jpg" title="07-29">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-30.jpg" title="07-30">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-07-31.jpg" title="07-31">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-02.jpg" title="08-02">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-03.jpg" title="08-03">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-04.jpg" title="08-04">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-05.jpg" title="08-05">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-06.jpg" title="08-06">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-07.jpg" title="08-07">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-09.jpg" title="08-09">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-10.jpg" title="08-10">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-11.jpg" title="08-11">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-12.jpg" title="08-12">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-13.jpg" title="08-13">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-14.jpg" title="08-14">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-16.jpg" title="08-16">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-17.jpg" title="08-17">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-18.jpg" title="08-18">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-19.jpg" title="08-19">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-20.jpg" title="08-20">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-21.jpg" title="08-21">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-23.jpg" title="08-23">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-24.jpg" title="08-24">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-25.jpg" title="08-25">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-26.jpg" title="08-26">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-27.jpg" title="08-27">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-28.jpg" title="08-28">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-30.jpg" title="08-30">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-08-31.jpg" title="08-31">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-01.jpg" title="09-01">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-02.jpg" title="09-02">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-03.jpg" title="09-03">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-04.jpg" title="09-04">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-06.jpg" title="09-06">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-07.jpg" title="09-07">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-08.jpg" title="09-08">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-09.jpg" title="09-09">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-10.jpg" title="09-10">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-11.jpg" title="09-11">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-13.jpg" title="09-13">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-14.jpg" title="09-14">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-15.jpg" title="09-15">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-16.jpg" title="09-16">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-17.jpg" title="09-17">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-18.jpg" title="09-18">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-20.jpg" title="09-20">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-21.jpg" title="09-21">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-22.jpg" title="09-22">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-23.jpg" title="09-23">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-24.jpg" title="09-24">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-25.jpg" title="09-25">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-27.jpg" title="09-27">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-28.jpg" title="09-28">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-29.jpg" title="09-29">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-09-30.jpg" title="09-30">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-01.jpg" title="10-01">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-02.jpg" title="10-02">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-04.jpg" title="10-04">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-05.jpg" title="10-05">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-06.jpg" title="10-06">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-07.jpg" title="10-07">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-08.jpg" title="10-08">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-09.jpg" title="10-09">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-11.jpg" title="10-11">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-12.jpg" title="10-12">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-13.jpg" title="10-13">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-14.jpg" title="10-14">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-15.jpg" title="10-15">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-16.jpg" title="10-16">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-18.jpg" title="10-18">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-19.jpg" title="10-19">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-20.jpg" title="10-20">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-21.jpg" title="10-21">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-22.jpg" title="10-22">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-23.jpg" title="10-23">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-25.jpg" title="10-25">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-26.jpg" title="10-26">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-27.jpg" title="10-27">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-28.jpg" title="10-28">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-29.jpg" title="10-29">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-10-30.jpg" title="10-30">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-01.jpg" title="11-01">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-02.jpg" title="11-02">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-03.jpg" title="11-03">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-04.jpg" title="11-04">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-05.jpg" title="11-05">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-06.jpg" title="11-06">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-08.jpg" title="11-08">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-09.jpg" title="11-09">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-10.jpg" title="11-10">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-11.jpg" title="11-11">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-12.jpg" title="11-12">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-13.jpg" title="11-13">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-15.jpg" title="11-15">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-16.jpg" title="11-16">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-17.jpg" title="11-17">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-18.jpg" title="11-18">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-19.jpg" title="11-19">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-20.jpg" title="11-20">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-22.jpg" title="11-22">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-23.jpg" title="11-23">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-24.jpg" title="11-24">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-25.jpg" title="11-25">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-26.jpg" title="11-26">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-27.jpg" title="11-27">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-29.jpg" title="11-29">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-11-30.jpg" title="11-30">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-01.jpg" title="12-01">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-02.jpg" title="12-02">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-03.jpg" title="12-03">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-04.jpg" title="12-04">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-06.jpg" title="12-06">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-07.jpg" title="12-07">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-08.jpg" title="12-08">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-09.jpg" title="12-09">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-10.jpg" title="12-10">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-11.jpg" title="12-11">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-13.jpg" title="12-13">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-14.jpg" title="12-14">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-15.jpg" title="12-15">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-16.jpg" title="12-16">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-17.jpg" title="12-17">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-18.jpg" title="12-18">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-20.jpg" title="12-20">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-21.jpg" title="12-21">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-22.jpg" title="12-22">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-23.jpg" title="12-23">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-24.jpg" title="12-24">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-25.jpg" title="12-25">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-27.jpg" title="12-27">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-28.jpg" title="12-28">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-29.jpg" title="12-29">
+  </div>
+  <div class="column">
+    <img src="../data/puzzle_images/2021-12-30.jpg" title="12-30">
+  </div>
+
+</div>
+
+</body>
