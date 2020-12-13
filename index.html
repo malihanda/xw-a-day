@@ -60,7 +60,7 @@
 }
 
 /* When screen is skinnier, make thirteen columns */
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1280px) {
   .column {
     -ms-flex: 7.6%;
     flex: 7.6%;
@@ -69,29 +69,62 @@
 }
 
 /* When screen is skinnier, make eight columns */
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 980px) {
   .column {
     -ms-flex: 12.5%;
     flex: 12.5%;
     max-width: 50%;
   }
+  .header {
+    font-size: 30px;
+  }
+  .button {
+    font-size: 16px;
+  }
 }
 
 /* When screen is skinnier, make six columns */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 736px) {
   .column {
     -ms-flex: 16.6%;
     flex: 16.6%;
     max-width: 50%;
   }
+  .header {
+    font-size: 30px;
+  }
+  .button {
+    font-size: 16px;
+  }
 }
 
 /* When screen is skinnier, make four columns */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .column {
     -ms-flex: 25%;
     flex: 25%;
     max-width: 50%;
+  }
+  .header {
+    font-size: 30px;
+  }
+  .button {
+    font-size: 16px;
+  }
+}
+
+/* When screen is skinnier, make two columns */
+@media screen and (max-width: 360px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+  .header {
+    font-size: 30px;
+  }
+  .button {
+    font-size: 16px;
   }
 }
 
@@ -103,32 +136,6 @@ img {
 .pictureContainer img:hover {
     outline: #941919 solid 4px;
     opacity: 1;
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 50px;
-  background-color: #941919;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  opacity: 0.8;
-  font-family: monospace;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
 }
 
 </style>
