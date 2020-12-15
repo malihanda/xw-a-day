@@ -1,0 +1,277 @@
+<!doctype html>
+
+<title>7x7</title>
+<link rel="icon" href="data/puzzle_images/2021-02-15.jpg">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.button {
+  background-color: #CCCCCC;
+  border: none;
+  color: white;
+  padding: 8px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: monospace;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #941919;
+  color: white;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+/* On a max screen, it'll show eight columns */
+.column {
+  -ms-flex: 12.5%; /* IE10 */
+  flex: 12.5%;
+  max-width: 12.5%;
+  padding: 10px 10px;
+}
+
+.column img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* When screen is skinnier, make six columns */
+@media screen and (max-width: 736px) {
+  .column {
+    -ms-flex: 16.6%;
+    flex: 16.6%;
+    max-width: 50%;
+  }
+  .header {
+    font-size: 50px;
+  }
+  .button {
+    font-size: 25px;
+  }
+}
+
+/* When screen is skinnier, make four columns */
+@media screen and (max-width: 480px) {
+  .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 50%;
+  }
+  .header {
+    font-size: 50px;
+  }
+  .button {
+    font-size: 25px;
+  }
+}
+
+/* When screen is skinnier, make two columns */
+@media screen and (max-width: 360px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+  .header {
+    font-size: 50px;
+  }
+  .button {
+    font-size: 25px;
+  }
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: white;
+}
+
+.container:hover .overlay {
+  outline: #941919 solid 4px;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.7)
+}
+
+.text {
+  color: #941919;
+  font-size: 20px;
+  font-family: monospace;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+img {
+    outline: #333 solid 2px;
+    opacity: 0.7;
+}
+
+</style>
+
+<body style="background-color:#B3B3B3;">
+
+<div class="header">
+  puzzles by malaika handa
+  <button class="button" onclick="location.href='index.html'">daily 7x7 puzzles</button>
+</div>
+
+<div class="row">
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/themeless-3-evermore.png">
+      <div class="overlay">
+        <a href="dates/01-01.html">
+        <div class="text">themeless 3 - evermore (11x11)</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/themeless-2-spikes.png">
+      <div class="overlay">
+        <a href="dates/01-01.html">
+        <div class="text">themeless 2 - spikes (13x13)</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/whats-up-doc.png">
+      <div class="overlay">
+        <a href="dates/01-01.html">
+        <div class="text">What's Up, D.O.C.? (13x13)</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/please-look-after-this.png">
+      <div class="overlay">
+        <a href="dates/01-01.html">
+        <div class="text">Please look after this-- (15x15)</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/rhyme-time.png">
+      <div class="overlay">
+        <a href="dates/01-01.html">
+        <div class="text">Rhyme Time! (11x11)</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/peggy-ann-freeman.png">
+      <div class="overlay">
+        <a href="dates/01-01.html">
+        <div class="text">peggy ann freeman (7x7)</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/lights.png">
+      <div class="overlay">
+        <a href="dates/01-01.html">
+        <div class="text">lights (11x11)</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/art-class.png">
+      <div class="overlay">
+        <a href="dates/01-01.html">
+        <div class="text">art class (9x19)</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/msnbc.png">
+      <div class="overlay">
+        <a href="dates/01-01.html">
+        <div class="text">MSNBC (8x8)</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/themeless-1-fad-bracelet.png">
+      <div class="overlay">
+        <a href="dates/01-01.html">
+        <div class="text">themeless 1 - fad bracelet (15x15)</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>

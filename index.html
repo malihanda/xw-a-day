@@ -9,6 +9,9 @@
 }
 
 .header {
+/*  display : flex;
+  align-items : center;
+  justify-content: center;*/
   text-align: left;
   margin-top: 10px;
   margin-left: 10px;
@@ -22,7 +25,7 @@
   background-color: #CCCCCC;
   border: none;
   color: white;
-  padding: 8px;
+  /*padding: 8px;*/
   vertical-align: middle;
   text-align: center;
   text-decoration: none;
@@ -38,11 +41,59 @@
   color: white;
 }
 
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: white;
+}
+
+.container:hover .overlay {
+  outline: #941919 solid 4px;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.7)
+}
+
+.text {
+  color: #941919;
+  font-size: 15px;
+  font-family: monospace;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+img {
+    outline: #333 solid 2px;
+    opacity: 0.7;
+}
+
 .row {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  padding: 0 10px;
 }
 
 /* On a max screen, it'll show twenty-four columns */
@@ -50,11 +101,10 @@
   -ms-flex: 4.15%; /* IE10 */
   flex: 4.15%;
   max-width: 4.15%;
-  padding: 0 5px;
+  padding: 5px 5px;
 }
 
 .column img {
-  margin-top: 10px;
   vertical-align: middle;
   width: 100%;
 }
@@ -72,6 +122,9 @@
   .button {
     font-size: 15px;
   }
+  .text {
+    font-size: 15px;
+  }
 }
 
 /* When screen is skinnier, make eight columns */
@@ -85,6 +138,9 @@
     font-size: 50px;
   }
   .button {
+    font-size: 25px;
+  }
+  .text {
     font-size: 25px;
   }
 }
@@ -102,6 +158,9 @@
   .button {
     font-size: 25px;
   }
+  .text {
+    font-size: 25px;
+  }
 }
 
 /* When screen is skinnier, make four columns */
@@ -115,6 +174,9 @@
     font-size: 50px;
   }
   .button {
+    font-size: 25px;
+  }
+  .text {
     font-size: 25px;
   }
 }
@@ -132,16 +194,9 @@
   .button {
     font-size: 25px;
   }
-}
-
-img {
-    outline: #333 solid 2px;
-    opacity: 0.7;
-}
-
-.pictureContainer img:hover {
-    outline: #941919 solid 4px;
-    opacity: 1;
+  .text {
+    font-size: 25px;
+  }
 }
 
 </style>
@@ -151,954 +206,960 @@ img {
 <div class="header">
   daily 7x7 puzzles by malaika handa, coming 2021
   <button class="button" onclick="location.href='about.html'">(why?)</button>
+  <button class="button" onclick="location.href='non7x.html'">other puzzles</button>
 </div>
 
 <div class="row">
+
   <div class="column">
-    <div class="pictureContainer">
-      <a href="dates/01-01.html"><img src="data/puzzle_images/2021-01-01.jpg"></a>
+    <div class="container">
+      <img src="data/puzzle_images/01-01.png">
+        <a href="dates/01-01.html">
+          <div class="overlay">
+          <div class="text">Jan 1</div>
+          </div>
+        </a>
     </div>
   </div>
+
 <!--   <div class="column">
-    <img src="data/puzzle_images/2021-01-01.jpg" title="01-01">
+    <img src="data/puzzle_images/01-01.png" title="01-01">
   </div> -->
   <div class="column">
-    <div class="pictureContainer">
-      <a href="test.html"><img src="data/puzzle_images/2021-01-02.jpg"></a>
-    </div>
+    <img src="data/puzzle_images/01-02.png" title="01-02">
   </div>
-<!--   <div class="column">
-    <img src="data/puzzle_images/2021-01-02.jpg" title="01-02">
-  </div> -->
   <div class="column">
-    <img src="data/puzzle_images/2021-01-04.jpg" title="01-04">
+    <img src="data/puzzle_images/01-03.png" title="01-03">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-05.jpg" title="01-05">
+    <img src="data/puzzle_images/01-05.png" title="01-05">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-06.jpg" title="01-06">
+    <img src="data/puzzle_images/01-06.png" title="01-06">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-07.jpg" title="01-07">
+    <img src="data/puzzle_images/01-07.png" title="01-07">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-08.jpg" title="01-08">
+    <img src="data/puzzle_images/01-08.png" title="01-08">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-09.jpg" title="01-09">
+    <img src="data/puzzle_images/01-09.png" title="01-09">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-11.jpg" title="01-11">
+    <img src="data/puzzle_images/01-10.png" title="01-10">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-12.jpg" title="01-12">
+    <img src="data/puzzle_images/01-12.png" title="01-12">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-13.jpg" title="01-13">
+    <img src="data/puzzle_images/01-13.png" title="01-13">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-14.jpg" title="01-14">
+    <img src="data/puzzle_images/01-14.png" title="01-14">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-15.jpg" title="01-15">
+    <img src="data/puzzle_images/01-15.png" title="01-15">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-16.jpg" title="01-16">
+    <img src="data/puzzle_images/01-16.png" title="01-16">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-18.jpg" title="01-18">
+    <img src="data/puzzle_images/01-17.png" title="01-17">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-19.jpg" title="01-19">
+    <img src="data/puzzle_images/01-19.png" title="01-19">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-20.jpg" title="01-20">
+    <img src="data/puzzle_images/01-20.png" title="01-20">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-21.jpg" title="01-21">
+    <img src="data/puzzle_images/01-21.png" title="01-21">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-22.jpg" title="01-22">
+    <img src="data/puzzle_images/01-22.png" title="01-22">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-23.jpg" title="01-23">
+    <img src="data/puzzle_images/01-23.png" title="01-23">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-25.jpg" title="01-25">
+    <img src="data/puzzle_images/01-24.png" title="01-24">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-26.jpg" title="01-26">
+    <img src="data/puzzle_images/01-26.png" title="01-26">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-27.jpg" title="01-27">
+    <img src="data/puzzle_images/01-27.png" title="01-27">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-28.jpg" title="01-28">
+    <img src="data/puzzle_images/01-28.png" title="01-28">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-29.jpg" title="01-29">
+    <img src="data/puzzle_images/01-29.png" title="01-29">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-01-30.jpg" title="01-30">
+    <img src="data/puzzle_images/01-30.png" title="01-30">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-01.jpg" title="02-01">
+    <img src="data/puzzle_images/01-31.png" title="01-31">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-02.jpg" title="02-02">
+    <img src="data/puzzle_images/02-02.png" title="02-02">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-03.jpg" title="02-03">
+    <img src="data/puzzle_images/02-03.png" title="02-03">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-04.jpg" title="02-04">
+    <img src="data/puzzle_images/02-04.png" title="02-04">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-05.jpg" title="02-05">
+    <img src="data/puzzle_images/02-05.png" title="02-05">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-06.jpg" title="02-06">
+    <img src="data/puzzle_images/02-06.png" title="02-06">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-08.jpg" title="02-08">
+    <img src="data/puzzle_images/02-07.png" title="02-07">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-09.jpg" title="02-09">
+    <img src="data/puzzle_images/02-09.png" title="02-09">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-10.jpg" title="02-10">
+    <img src="data/puzzle_images/02-10.png" title="02-10">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-11.jpg" title="02-11">
+    <img src="data/puzzle_images/02-11.png" title="02-11">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-12.jpg" title="02-12">
+    <img src="data/puzzle_images/02-12.png" title="02-12">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-13.jpg" title="02-13">
+    <img src="data/puzzle_images/02-13.png" title="02-13">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-15.jpg" title="02-15">
+    <img src="data/puzzle_images/02-14.png" title="02-14">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-16.jpg" title="02-16">
+    <img src="data/puzzle_images/02-16.png" title="02-16">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-17.jpg" title="02-17">
+    <img src="data/puzzle_images/02-17.png" title="02-17">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-18.jpg" title="02-18">
+    <img src="data/puzzle_images/02-18.png" title="02-18">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-19.jpg" title="02-19">
+    <img src="data/puzzle_images/02-19.png" title="02-19">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-20.jpg" title="02-20">
+    <img src="data/puzzle_images/02-20.png" title="02-20">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-22.jpg" title="02-22">
+    <img src="data/puzzle_images/02-21.png" title="02-21">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-23.jpg" title="02-23">
+    <img src="data/puzzle_images/02-23.png" title="02-23">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-24.jpg" title="02-24">
+    <img src="data/puzzle_images/02-24.png" title="02-24">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-25.jpg" title="02-25">
+    <img src="data/puzzle_images/02-25.png" title="02-25">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-26.jpg" title="02-26">
+    <img src="data/puzzle_images/02-26.png" title="02-26">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-02-27.jpg" title="02-27">
+    <img src="data/puzzle_images/02-27.png" title="02-27">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-01.jpg" title="03-01">
+    <img src="data/puzzle_images/02-28.png" title="02-28">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-02.jpg" title="03-02">
+    <img src="data/puzzle_images/03-02.png" title="03-02">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-03.jpg" title="03-03">
+    <img src="data/puzzle_images/03-03.png" title="03-03">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-04.jpg" title="03-04">
+    <img src="data/puzzle_images/03-04.png" title="03-04">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-05.jpg" title="03-05">
+    <img src="data/puzzle_images/03-05.png" title="03-05">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-06.jpg" title="03-06">
+    <img src="data/puzzle_images/03-06.png" title="03-06">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-08.jpg" title="03-08">
+    <img src="data/puzzle_images/03-07.png" title="03-07">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-09.jpg" title="03-09">
+    <img src="data/puzzle_images/03-09.png" title="03-09">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-10.jpg" title="03-10">
+    <img src="data/puzzle_images/03-10.png" title="03-10">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-11.jpg" title="03-11">
+    <img src="data/puzzle_images/03-11.png" title="03-11">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-12.jpg" title="03-12">
+    <img src="data/puzzle_images/03-12.png" title="03-12">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-13.jpg" title="03-13">
+    <img src="data/puzzle_images/03-13.png" title="03-13">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-15.jpg" title="03-15">
+    <img src="data/puzzle_images/03-14.png" title="03-14">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-16.jpg" title="03-16">
+    <img src="data/puzzle_images/03-16.png" title="03-16">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-17.jpg" title="03-17">
+    <img src="data/puzzle_images/03-17.png" title="03-17">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-18.jpg" title="03-18">
+    <img src="data/puzzle_images/03-18.png" title="03-18">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-19.jpg" title="03-19">
+    <img src="data/puzzle_images/03-19.png" title="03-19">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-20.jpg" title="03-20">
+    <img src="data/puzzle_images/03-20.png" title="03-20">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-22.jpg" title="03-22">
+    <img src="data/puzzle_images/03-21.png" title="03-21">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-23.jpg" title="03-23">
+    <img src="data/puzzle_images/03-23.png" title="03-23">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-24.jpg" title="03-24">
+    <img src="data/puzzle_images/03-24.png" title="03-24">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-25.jpg" title="03-25">
+    <img src="data/puzzle_images/03-25.png" title="03-25">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-26.jpg" title="03-26">
+    <img src="data/puzzle_images/03-26.png" title="03-26">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-27.jpg" title="03-27">
+    <img src="data/puzzle_images/03-27.png" title="03-27">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-29.jpg" title="03-29">
+    <img src="data/puzzle_images/03-28.png" title="03-28">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-30.jpg" title="03-30">
+    <img src="data/puzzle_images/03-30.png" title="03-30">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-03-31.jpg" title="03-31">
+    <img src="data/puzzle_images/03-31.png" title="03-31">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-01.jpg" title="04-01">
+    <img src="data/puzzle_images/04-01.png" title="04-01">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-02.jpg" title="04-02">
+    <img src="data/puzzle_images/04-02.png" title="04-02">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-03.jpg" title="04-03">
+    <img src="data/puzzle_images/04-03.png" title="04-03">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-05.jpg" title="04-05">
+    <img src="data/puzzle_images/04-04.png" title="04-04">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-06.jpg" title="04-06">
+    <img src="data/puzzle_images/04-06.png" title="04-06">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-07.jpg" title="04-07">
+    <img src="data/puzzle_images/04-07.png" title="04-07">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-08.jpg" title="04-08">
+    <img src="data/puzzle_images/04-08.png" title="04-08">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-09.jpg" title="04-09">
+    <img src="data/puzzle_images/04-09.png" title="04-09">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-10.jpg" title="04-10">
+    <img src="data/puzzle_images/04-10.png" title="04-10">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-12.jpg" title="04-12">
+    <img src="data/puzzle_images/04-11.png" title="04-11">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-13.jpg" title="04-13">
+    <img src="data/puzzle_images/04-13.png" title="04-13">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-14.jpg" title="04-14">
+    <img src="data/puzzle_images/04-14.png" title="04-14">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-15.jpg" title="04-15">
+    <img src="data/puzzle_images/04-15.png" title="04-15">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-16.jpg" title="04-16">
+    <img src="data/puzzle_images/04-16.png" title="04-16">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-17.jpg" title="04-17">
+    <img src="data/puzzle_images/04-17.png" title="04-17">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-19.jpg" title="04-19">
+    <img src="data/puzzle_images/04-18.png" title="04-18">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-20.jpg" title="04-20">
+    <img src="data/puzzle_images/04-20.png" title="04-20">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-21.jpg" title="04-21">
+    <img src="data/puzzle_images/04-21.png" title="04-21">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-22.jpg" title="04-22">
+    <img src="data/puzzle_images/04-22.png" title="04-22">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-23.jpg" title="04-23">
+    <img src="data/puzzle_images/04-23.png" title="04-23">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-24.jpg" title="04-24">
+    <img src="data/puzzle_images/04-24.png" title="04-24">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-26.jpg" title="04-26">
+    <img src="data/puzzle_images/04-25.png" title="04-25">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-27.jpg" title="04-27">
+    <img src="data/puzzle_images/04-27.png" title="04-27">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-28.jpg" title="04-28">
+    <img src="data/puzzle_images/04-28.png" title="04-28">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-29.jpg" title="04-29">
+    <img src="data/puzzle_images/04-29.png" title="04-29">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-04-30.jpg" title="04-30">
+    <img src="data/puzzle_images/04-30.png" title="04-30">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-01.jpg" title="05-01">
+    <img src="data/puzzle_images/05-01.png" title="05-01">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-03.jpg" title="05-03">
+    <img src="data/puzzle_images/05-02.png" title="05-02">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-04.jpg" title="05-04">
+    <img src="data/puzzle_images/05-04.png" title="05-04">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-05.jpg" title="05-05">
+    <img src="data/puzzle_images/05-05.png" title="05-05">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-06.jpg" title="05-06">
+    <img src="data/puzzle_images/05-06.png" title="05-06">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-07.jpg" title="05-07">
+    <img src="data/puzzle_images/05-07.png" title="05-07">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-08.jpg" title="05-08">
+    <img src="data/puzzle_images/05-08.png" title="05-08">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-10.jpg" title="05-10">
+    <img src="data/puzzle_images/05-09.png" title="05-09">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-11.jpg" title="05-11">
+    <img src="data/puzzle_images/05-11.png" title="05-11">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-12.jpg" title="05-12">
+    <img src="data/puzzle_images/05-12.png" title="05-12">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-13.jpg" title="05-13">
+    <img src="data/puzzle_images/05-13.png" title="05-13">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-14.jpg" title="05-14">
+    <img src="data/puzzle_images/05-14.png" title="05-14">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-15.jpg" title="05-15">
+    <img src="data/puzzle_images/05-15.png" title="05-15">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-17.jpg" title="05-17">
+    <img src="data/puzzle_images/05-16.png" title="05-16">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-18.jpg" title="05-18">
+    <img src="data/puzzle_images/05-18.png" title="05-18">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-19.jpg" title="05-19">
+    <img src="data/puzzle_images/05-19.png" title="05-19">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-20.jpg" title="05-20">
+    <img src="data/puzzle_images/05-20.png" title="05-20">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-21.jpg" title="05-21">
+    <img src="data/puzzle_images/05-21.png" title="05-21">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-22.jpg" title="05-22">
+    <img src="data/puzzle_images/05-22.png" title="05-22">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-24.jpg" title="05-24">
+    <img src="data/puzzle_images/05-23.png" title="05-23">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-25.jpg" title="05-25">
+    <img src="data/puzzle_images/05-25.png" title="05-25">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-26.jpg" title="05-26">
+    <img src="data/puzzle_images/05-26.png" title="05-26">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-27.jpg" title="05-27">
+    <img src="data/puzzle_images/05-27.png" title="05-27">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-28.jpg" title="05-28">
+    <img src="data/puzzle_images/05-28.png" title="05-28">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-29.jpg" title="05-29">
+    <img src="data/puzzle_images/05-29.png" title="05-29">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-05-31.jpg" title="05-31">
+    <img src="data/puzzle_images/05-30.png" title="05-30">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-01.jpg" title="06-01">
+    <img src="data/puzzle_images/06-01.png" title="06-01">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-02.jpg" title="06-02">
+    <img src="data/puzzle_images/06-02.png" title="06-02">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-03.jpg" title="06-03">
+    <img src="data/puzzle_images/06-03.png" title="06-03">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-04.jpg" title="06-04">
+    <img src="data/puzzle_images/06-04.png" title="06-04">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-05.jpg" title="06-05">
+    <img src="data/puzzle_images/06-05.png" title="06-05">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-07.jpg" title="06-07">
+    <img src="data/puzzle_images/06-06.png" title="06-06">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-08.jpg" title="06-08">
+    <img src="data/puzzle_images/06-08.png" title="06-08">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-09.jpg" title="06-09">
+    <img src="data/puzzle_images/06-09.png" title="06-09">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-10.jpg" title="06-10">
+    <img src="data/puzzle_images/06-10.png" title="06-10">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-11.jpg" title="06-11">
+    <img src="data/puzzle_images/06-11.png" title="06-11">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-12.jpg" title="06-12">
+    <img src="data/puzzle_images/06-12.png" title="06-12">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-14.jpg" title="06-14">
+    <img src="data/puzzle_images/06-13.png" title="06-13">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-15.jpg" title="06-15">
+    <img src="data/puzzle_images/06-15.png" title="06-15">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-16.jpg" title="06-16">
+    <img src="data/puzzle_images/06-16.png" title="06-16">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-17.jpg" title="06-17">
+    <img src="data/puzzle_images/06-17.png" title="06-17">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-18.jpg" title="06-18">
+    <img src="data/puzzle_images/06-18.png" title="06-18">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-19.jpg" title="06-19">
+    <img src="data/puzzle_images/06-19.png" title="06-19">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-21.jpg" title="06-21">
+    <img src="data/puzzle_images/06-20.png" title="06-20">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-22.jpg" title="06-22">
+    <img src="data/puzzle_images/06-22.png" title="06-22">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-23.jpg" title="06-23">
+    <img src="data/puzzle_images/06-23.png" title="06-23">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-24.jpg" title="06-24">
+    <img src="data/puzzle_images/06-24.png" title="06-24">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-25.jpg" title="06-25">
+    <img src="data/puzzle_images/06-25.png" title="06-25">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-26.jpg" title="06-26">
+    <img src="data/puzzle_images/06-26.png" title="06-26">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-28.jpg" title="06-28">
+    <img src="data/puzzle_images/06-27.png" title="06-27">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-29.jpg" title="06-29">
+    <img src="data/puzzle_images/06-29.png" title="06-29">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-06-30.jpg" title="06-30">
+    <img src="data/puzzle_images/06-30.png" title="06-30">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-01.jpg" title="07-01">
+    <img src="data/puzzle_images/07-01.png" title="07-01">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-02.jpg" title="07-02">
+    <img src="data/puzzle_images/07-02.png" title="07-02">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-03.jpg" title="07-03">
+    <img src="data/puzzle_images/07-03.png" title="07-03">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-05.jpg" title="07-05">
+    <img src="data/puzzle_images/07-04.png" title="07-04">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-06.jpg" title="07-06">
+    <img src="data/puzzle_images/07-06.png" title="07-06">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-07.jpg" title="07-07">
+    <img src="data/puzzle_images/07-07.png" title="07-07">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-08.jpg" title="07-08">
+    <img src="data/puzzle_images/07-08.png" title="07-08">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-09.jpg" title="07-09">
+    <img src="data/puzzle_images/07-09.png" title="07-09">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-10.jpg" title="07-10">
+    <img src="data/puzzle_images/07-10.png" title="07-10">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-12.jpg" title="07-12">
+    <img src="data/puzzle_images/07-11.png" title="07-11">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-13.jpg" title="07-13">
+    <img src="data/puzzle_images/07-13.png" title="07-13">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-14.jpg" title="07-14">
+    <img src="data/puzzle_images/07-14.png" title="07-14">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-15.jpg" title="07-15">
+    <img src="data/puzzle_images/07-15.png" title="07-15">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-16.jpg" title="07-16">
+    <img src="data/puzzle_images/07-16.png" title="07-16">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-17.jpg" title="07-17">
+    <img src="data/puzzle_images/07-17.png" title="07-17">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-19.jpg" title="07-19">
+    <img src="data/puzzle_images/07-18.png" title="07-18">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-20.jpg" title="07-20">
+    <img src="data/puzzle_images/07-20.png" title="07-20">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-21.jpg" title="07-21">
+    <img src="data/puzzle_images/07-21.png" title="07-21">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-22.jpg" title="07-22">
+    <img src="data/puzzle_images/07-22.png" title="07-22">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-23.jpg" title="07-23">
+    <img src="data/puzzle_images/07-23.png" title="07-23">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-24.jpg" title="07-24">
+    <img src="data/puzzle_images/07-24.png" title="07-24">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-26.jpg" title="07-26">
+    <img src="data/puzzle_images/07-25.png" title="07-25">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-27.jpg" title="07-27">
+    <img src="data/puzzle_images/07-27.png" title="07-27">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-28.jpg" title="07-28">
+    <img src="data/puzzle_images/07-28.png" title="07-28">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-29.jpg" title="07-29">
+    <img src="data/puzzle_images/07-29.png" title="07-29">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-30.jpg" title="07-30">
+    <img src="data/puzzle_images/07-30.png" title="07-30">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-07-31.jpg" title="07-31">
+    <img src="data/puzzle_images/07-31.png" title="07-31">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-02.jpg" title="08-02">
+    <img src="data/puzzle_images/08-01.png" title="08-01">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-03.jpg" title="08-03">
+    <img src="data/puzzle_images/08-03.png" title="08-03">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-04.jpg" title="08-04">
+    <img src="data/puzzle_images/08-04.png" title="08-04">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-05.jpg" title="08-05">
+    <img src="data/puzzle_images/08-05.png" title="08-05">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-06.jpg" title="08-06">
+    <img src="data/puzzle_images/08-06.png" title="08-06">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-07.jpg" title="08-07">
+    <img src="data/puzzle_images/08-07.png" title="08-07">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-09.jpg" title="08-09">
+    <img src="data/puzzle_images/08-08.png" title="08-08">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-10.jpg" title="08-10">
+    <img src="data/puzzle_images/08-10.png" title="08-10">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-11.jpg" title="08-11">
+    <img src="data/puzzle_images/08-11.png" title="08-11">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-12.jpg" title="08-12">
+    <img src="data/puzzle_images/08-12.png" title="08-12">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-13.jpg" title="08-13">
+    <img src="data/puzzle_images/08-13.png" title="08-13">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-14.jpg" title="08-14">
+    <img src="data/puzzle_images/08-14.png" title="08-14">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-16.jpg" title="08-16">
+    <img src="data/puzzle_images/08-15.png" title="08-15">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-17.jpg" title="08-17">
+    <img src="data/puzzle_images/08-17.png" title="08-17">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-18.jpg" title="08-18">
+    <img src="data/puzzle_images/08-18.png" title="08-18">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-19.jpg" title="08-19">
+    <img src="data/puzzle_images/08-19.png" title="08-19">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-20.jpg" title="08-20">
+    <img src="data/puzzle_images/08-20.png" title="08-20">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-21.jpg" title="08-21">
+    <img src="data/puzzle_images/08-21.png" title="08-21">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-23.jpg" title="08-23">
+    <img src="data/puzzle_images/08-22.png" title="08-22">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-24.jpg" title="08-24">
+    <img src="data/puzzle_images/08-24.png" title="08-24">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-25.jpg" title="08-25">
+    <img src="data/puzzle_images/08-25.png" title="08-25">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-26.jpg" title="08-26">
+    <img src="data/puzzle_images/08-26.png" title="08-26">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-27.jpg" title="08-27">
+    <img src="data/puzzle_images/08-27.png" title="08-27">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-28.jpg" title="08-28">
+    <img src="data/puzzle_images/08-28.png" title="08-28">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-30.jpg" title="08-30">
+    <img src="data/puzzle_images/08-29.png" title="08-29">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-08-31.jpg" title="08-31">
+    <img src="data/puzzle_images/08-31.png" title="08-31">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-01.jpg" title="09-01">
+    <img src="data/puzzle_images/09-01.png" title="09-01">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-02.jpg" title="09-02">
+    <img src="data/puzzle_images/09-02.png" title="09-02">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-03.jpg" title="09-03">
+    <img src="data/puzzle_images/09-03.png" title="09-03">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-04.jpg" title="09-04">
+    <img src="data/puzzle_images/09-04.png" title="09-04">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-06.jpg" title="09-06">
+    <img src="data/puzzle_images/09-05.png" title="09-05">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-07.jpg" title="09-07">
+    <img src="data/puzzle_images/09-07.png" title="09-07">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-08.jpg" title="09-08">
+    <img src="data/puzzle_images/09-08.png" title="09-08">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-09.jpg" title="09-09">
+    <img src="data/puzzle_images/09-09.png" title="09-09">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-10.jpg" title="09-10">
+    <img src="data/puzzle_images/09-10.png" title="09-10">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-11.jpg" title="09-11">
+    <img src="data/puzzle_images/09-11.png" title="09-11">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-13.jpg" title="09-13">
+    <img src="data/puzzle_images/09-12.png" title="09-12">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-14.jpg" title="09-14">
+    <img src="data/puzzle_images/09-14.png" title="09-14">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-15.jpg" title="09-15">
+    <img src="data/puzzle_images/09-15.png" title="09-15">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-16.jpg" title="09-16">
+    <img src="data/puzzle_images/09-16.png" title="09-16">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-17.jpg" title="09-17">
+    <img src="data/puzzle_images/09-17.png" title="09-17">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-18.jpg" title="09-18">
+    <img src="data/puzzle_images/09-18.png" title="09-18">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-20.jpg" title="09-20">
+    <img src="data/puzzle_images/09-19.png" title="09-19">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-21.jpg" title="09-21">
+    <img src="data/puzzle_images/09-21.png" title="09-21">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-22.jpg" title="09-22">
+    <img src="data/puzzle_images/09-22.png" title="09-22">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-23.jpg" title="09-23">
+    <img src="data/puzzle_images/09-23.png" title="09-23">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-24.jpg" title="09-24">
+    <img src="data/puzzle_images/09-24.png" title="09-24">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-25.jpg" title="09-25">
+    <img src="data/puzzle_images/09-25.png" title="09-25">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-27.jpg" title="09-27">
+    <img src="data/puzzle_images/09-26.png" title="09-26">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-28.jpg" title="09-28">
+    <img src="data/puzzle_images/09-28.png" title="09-28">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-29.jpg" title="09-29">
+    <img src="data/puzzle_images/09-29.png" title="09-29">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-09-30.jpg" title="09-30">
+    <img src="data/puzzle_images/09-30.png" title="09-30">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-01.jpg" title="10-01">
+    <img src="data/puzzle_images/10-01.png" title="10-01">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-02.jpg" title="10-02">
+    <img src="data/puzzle_images/10-02.png" title="10-02">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-04.jpg" title="10-04">
+    <img src="data/puzzle_images/10-03.png" title="10-03">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-05.jpg" title="10-05">
+    <img src="data/puzzle_images/10-05.png" title="10-05">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-06.jpg" title="10-06">
+    <img src="data/puzzle_images/10-06.png" title="10-06">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-07.jpg" title="10-07">
+    <img src="data/puzzle_images/10-07.png" title="10-07">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-08.jpg" title="10-08">
+    <img src="data/puzzle_images/10-08.png" title="10-08">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-09.jpg" title="10-09">
+    <img src="data/puzzle_images/10-09.png" title="10-09">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-11.jpg" title="10-11">
+    <img src="data/puzzle_images/10-10.png" title="10-10">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-12.jpg" title="10-12">
+    <img src="data/puzzle_images/10-12.png" title="10-12">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-13.jpg" title="10-13">
+    <img src="data/puzzle_images/10-13.png" title="10-13">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-14.jpg" title="10-14">
+    <img src="data/puzzle_images/10-14.png" title="10-14">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-15.jpg" title="10-15">
+    <img src="data/puzzle_images/10-15.png" title="10-15">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-16.jpg" title="10-16">
+    <img src="data/puzzle_images/10-16.png" title="10-16">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-18.jpg" title="10-18">
+    <img src="data/puzzle_images/10-17.png" title="10-17">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-19.jpg" title="10-19">
+    <img src="data/puzzle_images/10-19.png" title="10-19">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-20.jpg" title="10-20">
+    <img src="data/puzzle_images/10-20.png" title="10-20">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-21.jpg" title="10-21">
+    <img src="data/puzzle_images/10-21.png" title="10-21">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-22.jpg" title="10-22">
+    <img src="data/puzzle_images/10-22.png" title="10-22">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-23.jpg" title="10-23">
+    <img src="data/puzzle_images/10-23.png" title="10-23">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-25.jpg" title="10-25">
+    <img src="data/puzzle_images/10-24.png" title="10-24">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-26.jpg" title="10-26">
+    <img src="data/puzzle_images/10-26.png" title="10-26">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-27.jpg" title="10-27">
+    <img src="data/puzzle_images/10-27.png" title="10-27">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-28.jpg" title="10-28">
+    <img src="data/puzzle_images/10-28.png" title="10-28">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-29.jpg" title="10-29">
+    <img src="data/puzzle_images/10-29.png" title="10-29">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-10-30.jpg" title="10-30">
+    <img src="data/puzzle_images/10-30.png" title="10-30">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-01.jpg" title="11-01">
+    <img src="data/puzzle_images/10-31.png" title="10-31">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-02.jpg" title="11-02">
+    <img src="data/puzzle_images/11-02.png" title="11-02">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-03.jpg" title="11-03">
+    <img src="data/puzzle_images/11-03.png" title="11-03">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-04.jpg" title="11-04">
+    <img src="data/puzzle_images/11-04.png" title="11-04">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-05.jpg" title="11-05">
+    <img src="data/puzzle_images/11-05.png" title="11-05">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-06.jpg" title="11-06">
+    <img src="data/puzzle_images/11-06.png" title="11-06">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-08.jpg" title="11-08">
+    <img src="data/puzzle_images/11-07.png" title="11-07">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-09.jpg" title="11-09">
+    <img src="data/puzzle_images/11-09.png" title="11-09">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-10.jpg" title="11-10">
+    <img src="data/puzzle_images/11-10.png" title="11-10">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-11.jpg" title="11-11">
+    <img src="data/puzzle_images/11-11.png" title="11-11">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-12.jpg" title="11-12">
+    <img src="data/puzzle_images/11-12.png" title="11-12">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-13.jpg" title="11-13">
+    <img src="data/puzzle_images/11-13.png" title="11-13">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-15.jpg" title="11-15">
+    <img src="data/puzzle_images/11-14.png" title="11-14">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-16.jpg" title="11-16">
+    <img src="data/puzzle_images/11-16.png" title="11-16">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-17.jpg" title="11-17">
+    <img src="data/puzzle_images/11-17.png" title="11-17">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-18.jpg" title="11-18">
+    <img src="data/puzzle_images/11-18.png" title="11-18">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-19.jpg" title="11-19">
+    <img src="data/puzzle_images/11-19.png" title="11-19">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-20.jpg" title="11-20">
+    <img src="data/puzzle_images/11-20.png" title="11-20">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-22.jpg" title="11-22">
+    <img src="data/puzzle_images/11-21.png" title="11-21">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-23.jpg" title="11-23">
+    <img src="data/puzzle_images/11-23.png" title="11-23">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-24.jpg" title="11-24">
+    <img src="data/puzzle_images/11-24.png" title="11-24">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-25.jpg" title="11-25">
+    <img src="data/puzzle_images/11-25.png" title="11-25">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-26.jpg" title="11-26">
+    <img src="data/puzzle_images/11-26.png" title="11-26">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-27.jpg" title="11-27">
+    <img src="data/puzzle_images/11-27.png" title="11-27">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-29.jpg" title="11-29">
+    <img src="data/puzzle_images/11-28.png" title="11-28">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-11-30.jpg" title="11-30">
+    <img src="data/puzzle_images/11-30.png" title="11-30">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-01.jpg" title="12-01">
+    <img src="data/puzzle_images/12-01.png" title="12-01">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-02.jpg" title="12-02">
+    <img src="data/puzzle_images/12-02.png" title="12-02">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-03.jpg" title="12-03">
+    <img src="data/puzzle_images/12-03.png" title="12-03">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-04.jpg" title="12-04">
+    <img src="data/puzzle_images/12-04.png" title="12-04">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-06.jpg" title="12-06">
+    <img src="data/puzzle_images/12-05.png" title="12-05">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-07.jpg" title="12-07">
+    <img src="data/puzzle_images/12-07.png" title="12-07">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-08.jpg" title="12-08">
+    <img src="data/puzzle_images/12-08.png" title="12-08">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-09.jpg" title="12-09">
+    <img src="data/puzzle_images/12-09.png" title="12-09">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-10.jpg" title="12-10">
+    <img src="data/puzzle_images/12-10.png" title="12-10">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-11.jpg" title="12-11">
+    <img src="data/puzzle_images/12-11.png" title="12-11">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-13.jpg" title="12-13">
+    <img src="data/puzzle_images/12-12.png" title="12-12">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-14.jpg" title="12-14">
+    <img src="data/puzzle_images/12-14.png" title="12-14">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-15.jpg" title="12-15">
+    <img src="data/puzzle_images/12-15.png" title="12-15">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-16.jpg" title="12-16">
+    <img src="data/puzzle_images/12-16.png" title="12-16">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-17.jpg" title="12-17">
+    <img src="data/puzzle_images/12-17.png" title="12-17">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-18.jpg" title="12-18">
+    <img src="data/puzzle_images/12-18.png" title="12-18">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-20.jpg" title="12-20">
+    <img src="data/puzzle_images/12-19.png" title="12-19">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-21.jpg" title="12-21">
+    <img src="data/puzzle_images/12-21.png" title="12-21">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-22.jpg" title="12-22">
+    <img src="data/puzzle_images/12-22.png" title="12-22">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-23.jpg" title="12-23">
+    <img src="data/puzzle_images/12-23.png" title="12-23">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-24.jpg" title="12-24">
+    <img src="data/puzzle_images/12-24.png" title="12-24">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-25.jpg" title="12-25">
+    <img src="data/puzzle_images/12-25.png" title="12-25">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-27.jpg" title="12-27">
+    <img src="data/puzzle_images/12-26.png" title="12-26">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-28.jpg" title="12-28">
+    <img src="data/puzzle_images/12-28.png" title="12-28">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-29.jpg" title="12-29">
+    <img src="data/puzzle_images/12-29.png" title="12-29">
   </div>
   <div class="column">
-    <img src="data/puzzle_images/2021-12-30.jpg" title="12-30">
+    <img src="data/puzzle_images/12-30.png" title="12-30">
+  </div>
+  <div class="column">
+    <img src="data/puzzle_images/12-31.png" title="12-31">
   </div>
 
 </div>
