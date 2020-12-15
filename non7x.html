@@ -1,7 +1,9 @@
 <!doctype html>
 
+<head>
 <title>7x7</title>
 <link rel="icon" href="data/puzzle_images/2021-02-15.jpg">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
 <style>
 
 * {
@@ -22,7 +24,7 @@
   background-color: #CCCCCC;
   border: none;
   color: white;
-  padding: 8px;
+  padding: 6px;
   vertical-align: middle;
   text-align: center;
   text-decoration: none;
@@ -31,6 +33,7 @@
   font-family: monospace;
   cursor: pointer;
   border-radius: 4px;
+  margin-bottom: 5px;
 }
 
 .button:hover {
@@ -57,51 +60,6 @@
 .column img {
   vertical-align: middle;
   width: 100%;
-}
-
-/* When screen is skinnier, make six columns */
-@media screen and (max-width: 736px) {
-  .column {
-    -ms-flex: 16.6%;
-    flex: 16.6%;
-    max-width: 50%;
-  }
-  .header {
-    font-size: 50px;
-  }
-  .button {
-    font-size: 25px;
-  }
-}
-
-/* When screen is skinnier, make four columns */
-@media screen and (max-width: 480px) {
-  .column {
-    -ms-flex: 25%;
-    flex: 25%;
-    max-width: 50%;
-  }
-  .header {
-    font-size: 50px;
-  }
-  .button {
-    font-size: 25px;
-  }
-}
-
-/* When screen is skinnier, make two columns */
-@media screen and (max-width: 360px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-  .header {
-    font-size: 50px;
-  }
-  .button {
-    font-size: 25px;
-  }
 }
 
 .container {
@@ -135,7 +93,7 @@
 
 .text {
   color: #941919;
-  font-size: 20px;
+  font-size: 18px;
   font-family: monospace;
   position: absolute;
   top: 50%;
@@ -149,6 +107,62 @@
 img {
     outline: #333 solid 2px;
     opacity: 0.7;
+}
+
+/* When screen is skinnier, make six columns */
+@media screen and (max-width: 736px) {
+  .column {
+    -ms-flex: 16.6%;
+    flex: 16.6%;
+    max-width: 50%;
+  }
+  .header {
+    font-size: 30px;
+  }
+  .button {
+    font-size: 15px;
+  }
+  .text {
+    font-size: 15px;
+  }
+}
+
+/* When screen is skinnier, make four columns */
+@media screen and (max-width: 480px) {
+  .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 50%;
+  }
+  .header {
+    font-size: 25px;
+  }
+  .button {
+    font-size: 13px;
+    padding: 6px;
+  }
+  .text {
+    font-size: 15px;
+  }
+}
+
+/* When screen is skinnier, make two columns */
+@media screen and (max-width: 360px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+  .header {
+    font-size: 25px;
+  }
+  .button {
+    font-size: 13px;
+    padding: 6px;
+  }
+  .text {
+    font-size: 15px;
+  }
 }
 
 </style>
