@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Flexbox Image Grid</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+        .image-grid {
+          /* Arrange children using flexbox */
+          display: flex;
+          /* ALlow images to display on multiple lines rather than a single line */
+          flex-wrap: wrap;
+          /* Container should take up only 90% of the browser, leave 5% space on each side */
+          width: 90%;
+          /* Center container */
+          margin: 0 auto;
+        }
+        .grid-image {
+          /* images display inline by default and act like text. We want them to act like divs, so display block */
+          display: block;
+          /* our width setting for mobile, one image per line */
+          flex-basis: 100%;
+          /* provide some space between our images */
+          padding: 10px;
+          /* ensure padding doesn't cause images to wrap, it should be within the width rather than in addition */
+          box-sizing: border-box;
+        }
+         
+        /* increase images per line as browser gets larger using media queries
+           this first query makes two images per line at 640px width */
+        @media only screen and (min-width: 640px) {
+          .grid-image {
+            flex-basis: 50%;
+          }
+        }
+         
+        /* three images per line when browser width exceeds 960px */
+        @media only screen and (min-width: 960px) {
+          .grid-image {
+            flex-basis: 33.333%;
+          }
+        }
+         
+        /* four images per line when browser width exceeds 1280px */
+        @media only screen and (min-width: 1280px) {
+          .grid-image {
+            flex-basis: 25%;
+          }
+        }
+         
+        /* five images per line when browser width exceeds 1600px */
+        @media only screen and (min-width: 1600px) {
+          .grid-image {
+            flex-basis: 20%;
+          }
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="image-grid">
+      <img class="grid-image" src="data/puzzle_images/01-08.png" />
+      <img class="grid-image" src="data/puzzle_images/01-08.png" />
+      <img class="grid-image" src="data/puzzle_images/01-08.png" />
+      <img class="grid-image" src="data/puzzle_images/01-08.png" />
+      <img class="grid-image" src="data/puzzle_images/01-08.png" />
+      <img class="grid-image" src="data/puzzle_images/01-08.png" />
+      <img class="grid-image" src="data/puzzle_images/01-08.png" />
+      <img class="grid-image" src="data/puzzle_images/01-08.png" />
+      <img class="grid-image" src="data/puzzle_images/01-08.png" />
+      <img class="grid-image" src="data/puzzle_images/01-08.png" />
+    </div>
+  </body>
+
+</html>
