@@ -49,28 +49,11 @@
   padding: 0 10px;
 }
 
-/* On a max screen, it'll show eight columns */
-.column {
-  -ms-flex: 12.5%; /* IE10 */
-  flex: 12.5%;
-  max-width: 12.5%;
-  padding: 10px 10px;
-}
-
-.column img {
-  vertical-align: middle;
-  width: 100%;
-}
-
 .container {
   position: relative;
-  width: 100%;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
+  height: 165px;
+  width: 165px;
+  margin: 6px;
 }
 
 .overlay {
@@ -79,8 +62,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
+  height: 165px;
+  width: 165px;
   opacity: 0;
   background-color: white;
 }
@@ -105,34 +88,54 @@
 }
 
 img {
+    height: 165px;
+    width: 165px;
     outline: #333 solid 2px;
     opacity: 0.7;
 }
 
-/* When screen is skinnier, make six columns */
-@media screen and (max-width: 736px) {
-  .column {
-    -ms-flex: 16.6%;
-    flex: 16.6%;
-    max-width: 50%;
+@media screen and (max-width: 980px) {
+  img {
+    width: 140px;
+    height: 140px;
   }
-  .header {
-    font-size: 30px;
+  .container {
+    width: 140px;
+    height: 140px;
   }
-  .button {
-    font-size: 15px;
+  .overlay {
+    width: 140px;
+    height: 140px;
   }
   .text {
     font-size: 15px;
   }
 }
 
-/* When screen is skinnier, make four columns */
+@media screen and (max-width: 736px) {
+  .header {
+    font-size: 30px;
+  }
+  .button {
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 480px) {
-  .column {
-    -ms-flex: 25%;
-    flex: 25%;
-    max-width: 50%;
+  img {
+    width: 110px;
+    height: 110px;
+  }
+  .container {
+    width: 110px;
+    height: 110px;
+  }
+  .overlay {
+    width: 110px;
+    height: 110px;
+  }
+  .text {
+    font-size: 12px;
   }
   .header {
     font-size: 25px;
@@ -142,27 +145,15 @@ img {
     padding: 4px;
     margin-bottom: 2px;
   }
-  .text {
-    font-size: 15px;
-  }
 }
 
-/* When screen is skinnier, make two columns */
 @media screen and (max-width: 360px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
   .header {
     font-size: 20px;
   }
   .button {
     font-size: 11px;
     padding: 3px;
-  }
-  .text {
-    font-size: 15px;
   }
 }
 
@@ -177,7 +168,6 @@ img {
 
 <div class="row">
 
-  <div class="column">
     <div class="container">
       <img src="data/puzzle_images/themeless-4-ungodly-hour.png">
         <a href="dates/01-01.html">
@@ -186,9 +176,7 @@ img {
           </div>
         </a>
     </div>
-  </div>
 
-  <div class="column">
     <div class="container">
       <img src="data/puzzle_images/malaikas-midi-revised.png">
         <a href="dates/01-01.html">
@@ -197,9 +185,7 @@ img {
           </div>
         </a>
     </div>
-  </div>
 
-  <div class="column">
     <div class="container">
       <img src="data/puzzle_images/change-of-pace.png">
         <a href="dates/01-01.html">
@@ -208,9 +194,7 @@ img {
           </div>
         </a>
     </div>
-  </div>
 
-  <div class="column">
     <div class="container">
       <img src="data/puzzle_images/themeless-3-evermore.png">
         <a href="dates/01-01.html">
@@ -219,9 +203,7 @@ img {
           </div>
         </a>
     </div>
-  </div>
 
-  <div class="column">
     <div class="container">
       <img src="data/puzzle_images/themeless-2-spikes.png">
         <a href="dates/01-01.html">
@@ -230,9 +212,7 @@ img {
           </div>
         </a>
     </div>
-  </div>
 
-  <div class="column">
     <div class="container">
       <img src="data/puzzle_images/whats-up-doc.png">
         <a href="dates/01-01.html">
@@ -241,9 +221,7 @@ img {
           </div>
         </a>
     </div>
-  </div>
 
-  <div class="column">
     <div class="container">
       <img src="data/puzzle_images/x-word.png">
         <a href="dates/01-01.html">
@@ -252,9 +230,7 @@ img {
           </div>
         </a>
     </div>
-  </div>
 
-  <div class="column">
     <div class="container">
       <img src="data/puzzle_images/please-look-after-this.png">
         <a href="dates/01-01.html">
@@ -263,9 +239,7 @@ img {
           </div>
         </a>
     </div>
-  </div>
 
-  <div class="column">
     <div class="container">
       <img src="data/puzzle_images/rhyme-time.png">
         <a href="dates/01-01.html">
@@ -274,9 +248,7 @@ img {
           </div>
         </a>
     </div>
-  </div>
 
-  <div class="column">
     <div class="container">
       <img src="data/puzzle_images/peggy-ann-freeman.png">
         <a href="dates/01-01.html">
@@ -285,9 +257,7 @@ img {
           </div>
         </a>
     </div>
-  </div>
 
-    <div class="column">
     <div class="container">
       <img src="data/puzzle_images/rabbits.png">
         <a href="https://www.happylittlepuzzles.com/post/rabbits-by-malaika-handa" target="_blank">
@@ -296,9 +266,7 @@ img {
           </div>
         </a>
     </div>
-  </div>
 
-  <div class="column">
     <div class="container">
       <img src="data/puzzle_images/art-class.png">
         <a href="dates/01-01.html">
@@ -307,9 +275,7 @@ img {
           </div>
         </a>
     </div>
-  </div>
 
-  <div class="column">
     <div class="container">
       <img src="data/puzzle_images/lights.png">
         <a href="dates/01-01.html">
@@ -318,9 +284,7 @@ img {
           </div>
         </a>
     </div>
-  </div>
 
-  <div class="column">
     <div class="container">
       <img src="data/puzzle_images/msnbc.png">
         <a href="dates/01-01.html">
@@ -329,9 +293,7 @@ img {
           </div>
         </a>
     </div>
-  </div>
 
-  <div class="column">
     <div class="container">
       <img src="data/puzzle_images/wink.png">
         <a href="dates/01-01.html">
@@ -340,9 +302,7 @@ img {
           </div>
         </a>
     </div>
-  </div>
 
-  <div class="column">
     <div class="container">
       <img src="data/puzzle_images/themeless-1-fad-bracelet.png">
         <a href="dates/01-01.html">
@@ -351,7 +311,6 @@ img {
           </div>
         </a>
     </div>
-  </div>
 
 </div>
 
