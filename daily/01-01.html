@@ -1,7 +1,9 @@
 <!doctype html>
 
+<head>
 <title>7x7</title>
-<link rel="icon" href="../data/puzzle_images/2021-02-15.jpg">
+<link rel="icon" href="../data/puzzle_images/02-19.png">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
 <style>
 
 .header {
@@ -18,7 +20,7 @@
   background-color: #CCCCCC;
   border: none;
   color: white;
-  padding: 8px;
+  padding: 6px;
   vertical-align: middle;
   text-align: center;
   text-decoration: none;
@@ -27,6 +29,7 @@
   font-family: monospace;
   cursor: pointer;
   border-radius: 4px;
+  margin-bottom: 5px;
 }
 
 .button:hover {
@@ -39,7 +42,7 @@
   margin-top: 15px;
   margin-bottom: 15px;
   margin-left: 10px;
-  margin-right: 50px;
+  margin-right: 10px;
   font-family: monospace;
   font-size: 15px;
   vertical-align: middle;
@@ -55,51 +58,61 @@ a:hover {
   font-weight:bold;
 }
 
-.puzzle {
-    width: min(100%, 800px);
-    display: block;
-    margin: 0 auto;
-}
-
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 480px) {
   .header {
-    font-size: 50px;
-  }
-  .button {
     font-size: 25px;
   }
+  .button {
+    font-size: 12px;
+    padding: 4px;
+    margin-bottom: 2px;
+  }
   .body {
-    font-size: 10px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .header {
+    font-size: 20px;
+  }
+  .button {
+    font-size: 11px;
+    padding: 3px;
+  }
+  .body {
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }
 
 </style>
+</head>
 
 <body style="background-color:#B3B3B3;">
+
 <div class="header">
   puzzle for January 1
-  <button class="button" onclick="location.href='../index.html'">back to all puzzles</button>
+  <button class="button" onclick="location.href='../index.html'">daily 7x7 puzzles</button>
+  <button class="button" onclick="location.href='../other-puzzles.html'">other puzzles</button>
 </div>
 
 <div class="body">
-  Hey squad, welcome to the blog! I'll be here every day of the week but Sundays, exploring every-ish mathematically possible 7x7 crossword grid.
+  Hey squad, welcome to the kick-off of this insane project! It is very weird to commit to a year of puzzles when I've only been constructing for three months, but I guess it's good to aim high...
 </div>
 
 <div class="body">
-  If you'd like to contribute a puzzle, please reach out to handamalaika at gmail dot com! I'd love to get other constructors on here :) 
+  There'll be a new puzzle every day except Saturday, either from me or from a lovely guest contributor. This could be you!! If you'd like to contribute a puzzle, just email me (handamalaika at gmail dot com) with the date you're interested in (make sure it hasn't been claimed already) and we'll make it happen!
 </div>
 
-<div class="body">
-  <a href="../data/puz_files/01-01.puz" download>.puz file</a>
-</div>
-
-<span class="puzzle">
-<iframe height="700" width="100%" allowfullscreen="true"
-        style="border:none;width: 100% !important;position: static;display: block !important;margin: 0 !important;"
-        name="d6d35225f64122d45e4a09a790eda3804d2237b383ad665a9edd138aa72754c8" src="https://amuselabs.com/pmm/crossword?id=00c19a5e&set=d6d35225f64122d45e4a09a790eda3804d2237b383ad665a9edd138aa72754c8&embed=1&compact=1&maxCols=2">
+<div class ="body">
+<iframe style="height: 90vh; width: 100%;"
+src="https://crosshare.org/embed/ywGK0iaU3HCgurnlfYYP/6GZEUgttSaMcNGI8CIiXptC8S1E3"
+frameborder="0" allowfullscreen="true" allowtransparency="true">
 </iframe>
-</span>
+</div>
 
 </body>
