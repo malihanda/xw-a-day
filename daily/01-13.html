@@ -1,0 +1,134 @@
+<!doctype html>
+
+<head>
+<title>7x7</title>
+<link rel="icon" href="../data/puzzle_images/02-19.png">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<style>
+
+.header {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.button {
+  background-color: #CCCCCC;
+  border: none;
+  color: white;
+  padding: 6px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: monospace;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.button:hover {
+  background-color: #941919;
+  color: white;
+}
+
+.body {
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: monospace;
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+a {
+  color: #610d0d;
+  font-weight:bold;
+}
+
+a:hover {
+  color: #941919;
+  font-weight:bold;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    font-size: 25px;
+  }
+  .button {
+    font-size: 12px;
+    padding: 4px;
+    margin-bottom: 2px;
+  }
+  .body {
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .header {
+    font-size: 20px;
+  }
+  .button {
+    font-size: 11px;
+    padding: 3px;
+  }
+  .body {
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+</style>
+</head>
+
+<body style="background-color:#B3B3B3;">
+
+<div class="header">
+  puzzle for January 13
+  <button class="button" onclick="location.href='../index.html'">daily 7x7 puzzles</button>
+  <button class="button" onclick="location.href='../other-puzzles.html'">other puzzles</button>
+</div>
+
+<div class="body">
+
+</div>
+
+<div class="body">
+  I am so so excited to share this puzzle with you. I made one of these <a href="https://crosshare.org/crosswords/9PHNin1fNoRKcXvIWWna" target="_blank">back in September</a> and decided to call it a "crosswift." Every word that appears in this puzzle is a word that has appeared in Taylor Swift's discography. And they are all clued fill-in-the-blank style using her lyrics.
+</div>
+
+<div class="body">
+  The first crosswift I made was pretty brutal if you weren't a fan because it had a cryptic-style grid with lots of unchecked squares. With this one, standard crossword rules apply, and most of lyrics contain idioms that you'll be able to figure out even if you don't know the song!
+</div>
+
+<div class="body">
+  If you want a little help, <a href="https://open.spotify.com/playlist/4IvhdjBhcJdcbixAnrQyum?si=YgWBTW4ASVuVYErflrI9Nw" target="blank_">this playlist</a> gives the songs in order. (All acrosses in order, then all downs in order.) So theoretically you could listen through the whole playlist and be able to solve.
+</div>
+
+<div class="body">
+  Lastly, if you're curious about the nitty gritty details, I used R to grab all of Taylor's lyrics from genius.com, and then parsed those lyrics down in to words (removing punctuation and duplicates). I formatted that into a (unscored) .dict file, and then had Crossfire *only* read from that dictionary. There's sort of a step-by-step over <a href="https://twitter.com/malicodes/status/1308805221418700802" target="blank_">here</a>, although that thread was written was before I started using Crossfire so there was a lot more code to explain. 
+</div>
+
+<div class="body">
+  Are there any other artists you'd like to see this style of crossword with?
+</div>
+
+<div class ="body">
+<iframe style="height: 90vh; width: 100%;"
+src="https://crosshare.org/embed/sC4oURoIk2j20tCUNa0y/6GZEUgttSaMcNGI8CIiXptC8S1E3"
+frameborder="0" allowfullscreen="true" allowtransparency="true">
+</iframe>
+</div>
+
+</body>
