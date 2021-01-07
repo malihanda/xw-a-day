@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<CROSSFIRE>
+<VERSION>1</VERSION>
+<TITLE>January 23</TITLE>
+<AUTHOR>Malaika Handa</AUTHOR>
+<COPYRIGHT>2021</COPYRIGHT>
+<GRID width="7">
+....PI-
+..SLOSH
+..T-ER-
+.-O-TA.
+HIRSI..
+OLMEC..
+--S....
+</GRID>
+<WORDS>
+<WORD dir="ACROSS" id="0" isTheme="false" num="1"/>
+<WORD dir="ACROSS" id="1" isTheme="false" num="4"/>
+<WORD dir="ACROSS" id="2" isTheme="false" num="6"/>
+<WORD dir="ACROSS" id="3" isTheme="false" num="7"/>
+<WORD dir="ACROSS" id="4" isTheme="false" num="8"/>
+<WORD dir="ACROSS" id="5" isTheme="false" num="9"/>
+<WORD dir="ACROSS" id="6" isTheme="false" num="10"/>
+<WORD dir="DOWN" id="11" isTheme="false" num="1"/>
+<WORD dir="DOWN" id="12" isTheme="false" num="2"/>
+<WORD dir="DOWN" id="13" isTheme="false" num="3"/>
+<WORD dir="DOWN" id="9" isTheme="false" num="4"/>
+<WORD dir="DOWN" id="10" isTheme="false" num="5"/>
+<WORD dir="DOWN" id="8" isTheme="false" num="7"/>
+<WORD dir="DOWN" id="7" isTheme="false" num="8"/>
+</WORDS>
+<NOTES/>
+</CROSSFIRE>
