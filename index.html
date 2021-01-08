@@ -96,35 +96,17 @@ img {
   padding: 0 10px;
 }
 
-/* On a max screen, it'll show twenty-four columns */
+/* On a max screen, it'll show thirteen columns */
 .column {
-  -ms-flex: 4.15%;
-  flex: 4.15%;
-  max-width: 4.15%;
+  -ms-flex: 7.6%;
+  flex: 7.6%;
+  max-width: 50%;
   padding: 5px 5px;
 }
 
 .column img {
   vertical-align: middle;
   width: 100%;
-}
-
-/* When screen is skinnier, make thirteen columns */
-@media screen and (max-width: 1280px) {
-  .column {
-    -ms-flex: 7.6%;
-    flex: 7.6%;
-    max-width: 50%;
-  }
-  .header {
-    font-size: 30px;
-  }
-  .button {
-    font-size: 15px;
-  }
-  .text {
-    font-size: 11px;
-  }
 }
 
 /* When screen is skinnier, make eight columns */
@@ -1681,9 +1663,18 @@ img {
   <div class="column">
     <img src="data/puzzle_images/07-13.png" title="07-13">
   </div>
+
   <div class="column">
-    <img src="data/puzzle_images/07-14.png" title="07-14">
+    <div class="container">
+      <img src="data/puzzle_images/07-14.png">
+        <!-- <a href="07-14.html"> -->
+          <div class="overlay">
+          <div class="text">07/14 (claimed by malaika)</div>
+          </div>
+        <!-- </a> -->
+    </div>
   </div>
+
   <div class="column">
     <img src="data/puzzle_images/07-15.png" title="07-15">
   </div>
