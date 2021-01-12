@@ -5,13 +5,13 @@
 <AUTHOR>Malaika Handa</AUTHOR>
 <COPYRIGHT>2021</COPYRIGHT>
 <GRID width="7">
-....PI-
-..--OS-
-..--ER-
-.---TA.
-HIRSI..
-AFLAC..
----....
+....K--
+..F-I--
+..U-C--
+.-L-K-.
+--L-E..
+--E-R..
+--R....
 </GRID>
 <WORDS>
 <WORD dir="ACROSS" id="0" isTheme="false" num="1"/>
@@ -21,10 +21,10 @@ AFLAC..
 <WORD dir="ACROSS" id="4" isTheme="false" num="8"/>
 <WORD dir="ACROSS" id="5" isTheme="false" num="9"/>
 <WORD dir="ACROSS" id="6" isTheme="false" num="10"/>
-<WORD dir="DOWN" id="11" isTheme="false" num="1"/>
+<WORD dir="DOWN" id="11" isTheme="true" num="1"/>
 <WORD dir="DOWN" id="12" isTheme="false" num="2"/>
 <WORD dir="DOWN" id="13" isTheme="false" num="3"/>
-<WORD dir="DOWN" id="9" isTheme="false" num="4"/>
+<WORD dir="DOWN" id="9" isTheme="true" num="4"/>
 <WORD dir="DOWN" id="10" isTheme="false" num="5"/>
 <WORD dir="DOWN" id="8" isTheme="false" num="7"/>
 <WORD dir="DOWN" id="7" isTheme="false" num="8"/>

@@ -18,7 +18,6 @@ SIZES = {
 # Colors of the grid
 WHITE = [255, 255, 255]
 BLACK = [0, 0, 0]
-GREY = [150, 150, 150]
 BORDER_COLOR = [80, 80, 80]
 
 
@@ -76,9 +75,23 @@ def read_puzzle():
 
 
 # Draw a single cell of the puzzle
-def draw_cell(color):
-    cell = np.zeros((SIZES["CELL_SIZE"], SIZES["CELL_SIZE"], 3), dtype=np.uint)
+def draw_cell(color, number):
+    size = SIZES["CELL_SIZE"]
+    cell = np.zeros((size, size, 3), dtype=np.uint)
     cell[:, :] = color
+
+    print(number)
+
+    if number in CIRCLED_SQUARES:
+        print("DRAWING CELL", number)
+        origin = size // 2
+        for i in range(size):
+            for j in range(size):
+                dist_to_orig = math.sqrt((i - origin) ** 2 + (j - origin) ** 2)
+                diff = abs(math.floor(dist_to_orig) - math.floor(origin))
+                if diff < (SIZES["GRID_LINE"] / 2):
+                    cell[i, j] = BORDER_COLOR
+
     return cell
 
 
@@ -93,7 +106,7 @@ def draw_puzzle(p):
     for r in range(SIZES["ROWS"]):
         for c in range(SIZES["COLS"]):
             color = BLACK if p[r][c] == "." else WHITE
-            cell = draw_cell(color)
+            cell = draw_cell(color, (r * SIZES["COLS"]) + c)
             r_start = SIZES["BORDER"] + (SIZES["CELL_SIZE"] * r) + (r * SIZES["GRID_LINE"])
             r_stop = r_start + SIZES["CELL_SIZE"]
             c_start = SIZES["BORDER"] + (SIZES["CELL_SIZE"] * c) + (c * SIZES["GRID_LINE"])
@@ -126,9 +139,10 @@ def center_puzzle(p):
 
 if __name__ == "__main__":
     FILE_PATH = sys.argv[1]
-    PUZ_FILE = "puz_files/{}.puz".format(FILE_PATH)
+    PUZ_FILE = "puz_files/other-puzzles/{}.puz".format(FILE_PATH)
     IMAGE_FILE = "puzzle_images/{}.png".format(FILE_PATH)
     PUZZLE = puz.read(PUZ_FILE)
+    CIRCLED_SQUARES = PUZZLE.markup().get_markup_squares()
 
     # Assign sizes based on the puz file
     SIZES["ROWS"] = PUZZLE.height
