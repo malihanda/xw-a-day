@@ -39,5 +39,5 @@ for f in folders:
 
 for w, i in counts.items():
     if len(i) != 1:
-        if i[1] < "01-23.puz":
+        if i[1] < "01-24.puz":
             print(w, i)
