@@ -24,19 +24,20 @@ for f in folders:
         for clue in n.across:
             answer = "".join(puzzle.solution[clue["cell"] + i] for i in range(clue["len"]))
             if answer in counts:
-                counts[answer] += 1
+                counts[answer].append(p)
             else:
-                counts[answer] = 1
+                counts[answer] = [p]
 
         # Down
         for clue in n.down:
             answer = "".join(puzzle.solution[clue["cell"] + i * n.width] for i in range(clue["len"]))
             if answer in counts:
-                counts[answer] += 1
+                counts[answer].append(p)
             else:
-                counts[answer] = 1
+                counts[answer] = [p]
 
 
 for w, i in counts.items():
-    if i != 1:
-        print(w, i)
+    if len(i) != 1:
+        if i[1] < "01-23.puz":
+            print(w, i)
