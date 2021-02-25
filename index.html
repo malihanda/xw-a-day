@@ -52,21 +52,6 @@
   height: auto;
 }
 
-.todays-puzzle {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  background-color: white;
-  outline: #941919 solid 4px;
-  opacity: 1;
-  background-color: rgba(255, 255, 255, 0.7)
-}
-
 .overlay {
   position: absolute;
   top: 0;
@@ -77,6 +62,12 @@
   width: 100%;
   opacity: 0;
   background-color: white;
+}
+
+.todays-puzzle {
+  outline: #941919 solid 4px;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.7)
 }
 
 .container:hover .overlay {
@@ -734,7 +725,7 @@ img {
     <div class="container">
       <img src="data/puzzle_images/02-25.png">
         <!-- <a href="test.html"> -->
-          <div class="overlay">
+          <div class="overlay todays-puzzle">
           <div class="text">02/25 (claimed by jonathan k)</div>
           </div>
         <!-- </a> -->
