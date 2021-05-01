@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:webfeeds="http://webfeeds.org/rss/1.0">
+
+ <title>puzzles by malaika handa</title>
+ <link href="https://www.7xwords.com/atom.xml" rel="self"/>
+ <link href="https://www.7xwords.com/"/>
+ <updated>2021-04-29T00:00:00+00:00</updated>
+ <id>https://www.7xwords.com/</id>
+ <author>
+   <name>malaika handa</name>
+ </author>
+ <webfeeds:icon>https://www.7xwords.com/data/puzzle_images/02-19.png</webfeeds:icon>
+
+ <entry>
+   <title>themeless 8: sparkles</title>
+   <link href="https://www.7xwords.com/all/themeless-8-sparkles.html"/>
+   <updated>2021-04-26T00:00:00+00:00</updated>
+   <id>https://www.7xwords.com/all/themeless-8-sparkles.html</id>
+   <content type="html">&lt;iframe width=&quot;100%&quot; height=&quot;500&quot; src=&quot;https://www.7xwords.com/all/themeless-8-sparkles.html&quot;&gt;&lt;/iframe&gt;</content>
+ </entry>
+
+ <entry>
+   <title>themeless 7</title>
+   <link href="https://www.7xwords.com/all/themeless-7.html"/>
+   <updated>2021-04-04T00:00:00+00:00</updated>
+   <id>https://www.7xwords.com/all/themeless-7.html</id>
+   <content type="html">&lt;iframe width=&quot;100%&quot; height=&quot;500&quot; src=&quot;https://www.7xwords.com/all/themeless-7.html&quot;&gt;&lt;/iframe&gt;</content>
+ </entry>
+
+ <entry>
+   <title>themeless 6</title>
+   <link href="https://www.7xwords.com/all/themeless-6.html"/>
+   <updated>2021-03-20T00:00:00+00:00</updated>
+   <id>https://www.7xwords.com/all/themeless-6.html</id>
+   <content type="html">&lt;iframe width=&quot;100%&quot; height=&quot;500&quot; src=&quot;https://www.7xwords.com/all/themeless-6.html&quot;&gt;&lt;/iframe&gt;</content>
+ </entry>
+
+ <entry>
+   <title>*sad honk*</title>
+   <link href="https://www.7xwords.com/all/sad-honk.html"/>
+   <updated>2021-03-14T00:00:00+00:00</updated>
+   <id>https://www.7xwords.com/all/sad-honk.html</id>
+   <content type="html">&lt;iframe width=&quot;100%&quot; height=&quot;500&quot; src=&quot;https://www.7xwords.com/all/sad-honk.html&quot;&gt;&lt;/iframe&gt;</content>
+ </entry>
+
+ <entry>
+   <title>I Fold</title>
+   <link href="https://www.7xwords.com/all/i-fold.html"/>
+   <updated>2021-03-05T00:00:00+00:00</updated>
+   <id>https://www.7xwords.com/all/i-fold.html</id>
+   <content type="html">&lt;iframe width=&quot;100%&quot; height=&quot;500&quot; src=&quot;https://www.7xwords.com/all/i-fold.html&quot;&gt;&lt;/iframe&gt;</content>
+ </entry>
+
+</feed>
