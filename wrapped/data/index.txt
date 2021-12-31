@@ -1,0 +1,3432 @@
+
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-01.png">
+        <a href="daily/01/01-01.html">
+          <div class="overlay">
+          <div class="text">01/01 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-02.png">
+        <a href="daily/01/01-02.html">
+          <div class="overlay">
+          <div class="text">01/02 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-03.png">
+        <a href="daily/01/01-03.html">
+          <div class="overlay">
+          <div class="text">01/03 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-05.png">
+        <a href="daily/01/01-05.html">
+          <div class="overlay">
+          <div class="text">01/05 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-06.png">
+        <a href="daily/01/01-06.html">
+          <div class="overlay">
+          <div class="text">01/06 (kyra)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-07.png">
+        <a href="daily/01/01-07.html">
+          <div class="overlay">
+          <div class="text">01/07 (zach)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-08.png">
+        <a href="daily/01/01-08.html">
+          <div class="overlay">
+          <div class="text">01/08 (alina)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-09.png">
+        <a href="daily/01/01-09.html">
+          <div class="overlay">
+          <div class="text">01/09 (sara)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-10.png">
+        <a href="daily/01/01-10.html">
+          <div class="overlay">
+          <div class="text">01/10 (david g)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-12.png">
+        <a href="daily/01/01-12.html">
+          <div class="overlay">
+          <div class="text">01/12 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-13.png">
+        <a href="daily/01/01-13.html">
+          <div class="overlay">
+          <div class="text">01/13 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-14.png">
+        <a href="daily/01/01-14.html">
+          <div class="overlay">
+          <div class="text">01/14 (ming)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-15.png">
+        <a href="daily/01/01-15.html">
+          <div class="overlay">
+          <div class="text">01/15 (matthew s)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-16.png">
+        <a href="daily/01/01-16.html">
+          <div class="overlay">
+          <div class="text">01/16 (brooke)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-17.png">
+        <a href="daily/01/01-17.html">
+          <div class="overlay">
+          <div class="text">01/17 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-19.png">
+        <a href="daily/01/01-19.html">
+          <div class="overlay">
+          <div class="text">01/19 (paul v)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-20.png">
+        <a href="daily/01/01-20.html">
+          <div class="overlay">
+          <div class="text">01/20 (michael k)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-21.png">
+        <a href="daily/01/01-21.html">
+          <div class="overlay">
+          <div class="text">01/21 (david g)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-22.png">
+        <a href="daily/01/01-22.html">
+          <div class="overlay">
+          <div class="text">01/22 (evan k)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-23.png">
+        <a href="daily/01/01-23.html">
+          <div class="overlay">
+          <div class="text">01/23 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-24.png">
+        <a href="daily/01/01-24.html">
+          <div class="overlay">
+          <div class="text">01/24 (tom s)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-26.png">
+        <a href="daily/01/01-26.html">
+          <div class="overlay">
+          <div class="text">01/26 (sid)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-27.png">
+       <a href="daily/01/01-27.html">
+          <div class="overlay">
+          <div class="text">01/27 (josh)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-28.png">
+        <a href="daily/01/01-28.html">
+          <div class="overlay">
+          <div class="text">01/28 (brian t)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-29.png">
+        <a href="daily/01/01-29.html">
+          <div class="overlay">
+          <div class="text">01/29 (brooke)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-30.png">
+        <a href="daily/01/01-30.html">
+          <div class="overlay">
+          <div class="text">01/30 (kyra)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/01-31.png">
+        <a href="daily/01/01-31.html">
+          <div class="overlay">
+          <div class="text">01/31 (sid)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-02.png">
+        <a href="daily/02/02-02.html">
+          <div class="overlay">
+          <div class="text">02/02 (sara)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-03.png">
+        <a href="daily/02/02-03.html">
+          <div class="overlay">
+          <div class="text">02/03 (erik)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-04.png">
+        <a href="daily/02/02-04.html">
+          <div class="overlay">
+          <div class="text">02/04 (luciano)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-05.png">
+        <a href="daily/02/02-05.html">
+          <div class="overlay">
+          <div class="text">02/05 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-06.png">
+        <a href="daily/02/02-06.html">
+          <div class="overlay">
+          <div class="text">02/06 (michael l)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-07.png">
+        <a href="daily/02/02-07.html">
+          <div class="overlay">
+          <div class="text">02/07 (angie + malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-09.png">
+        <a href="daily/02/02-09.html">
+          <div class="overlay">
+          <div class="text">02/09 (mollie)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-10.png">
+        <a href="daily/02/02-10.html">
+          <div class="overlay">
+          <div class="text">02/10 (martina)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-11.png">
+        <a href="daily/02/02-11.html">
+          <div class="overlay">
+          <div class="text">02/11 (lyle)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-12.png">
+        <a href="daily/02/02-12.html">
+          <div class="overlay">
+          <div class="text">02/12 (jess g)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-13.png">
+        <a href="daily/02/02-13.html">
+          <div class="overlay">
+          <div class="text">02/13 (evan k)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-14.png">
+        <a href="daily/02/02-14.html">
+          <div class="overlay">
+          <div class="text">02/14 (may + kevin)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-16.png">
+        <a href="daily/02/02-16.html">
+          <div class="overlay">
+          <div class="text">02/16 (will e)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-17.png">
+        <a href="daily/02/02-17.html">
+          <div class="overlay">
+          <div class="text">02/17 (mike)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-18.png">
+        <a href="daily/02/02-18.html">
+          <div class="overlay">
+          <div class="text">02/18 (chris p)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-19.png">
+        <a href="daily/02/02-19.html">
+          <div class="overlay">
+          <div class="text">02/19 (nam jin)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-20.png">
+        <a href="daily/02/02-20.html">
+          <div class="overlay">
+          <div class="text">02/20 (ken)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-21.png">
+        <a href="daily/02/02-21.html">
+          <div class="overlay">
+          <div class="text">02/21 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-23.png">
+        <a href="daily/02/02-23.html">
+          <div class="overlay">
+          <div class="text">02/23 (zach)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-24.png">
+        <a href="daily/02/02-24.html">
+          <div class="overlay">
+          <div class="text">02/24 (kyra)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-25.png">
+        <a href="daily/02/02-25.html">
+          <div class="overlay">
+          <div class="text">02/25 (jonathan k)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-26.png">
+        <a href="daily/02/02-26.html">
+          <div class="overlay">
+          <div class="text">02/26 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-27.png">
+        <a href="daily/02/02-27.html">
+          <div class="overlay">
+          <div class="text">02/27 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/02-28.png">
+        <a href="daily/02/02-28.html">
+          <div class="overlay">
+          <div class="text">02/28 (jac)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-02.png">
+        <a href="daily/03/03-02.html">
+          <div class="overlay">
+          <div class="text">03/02 (amanda)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-03.png">
+        <a href="daily/03/03-03.html">
+          <div class="overlay">
+          <div class="text">03/03 (jess g)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-04.png">
+        <a href="daily/03/03-04.html">
+          <div class="overlay">
+          <div class="text">03/04 (patrick)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-05.png">
+        <a href="daily/03/03-05.html">
+          <div class="overlay">
+          <div class="text">03/05 (jenna)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-06.png">
+        <a href="daily/03/03-06.html">
+          <div class="overlay">
+          <div class="text">03/06 (evan k)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-07.png">
+        <a href="daily/03/03-07.html">
+          <div class="overlay">
+          <div class="text">03/07 (rebecca g)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-09.png">
+        <a href="daily/03/03-09.html">
+          <div class="overlay">
+          <div class="text">03/09 (adam)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-10.png">
+        <a href="daily/03/03-10.html">
+          <div class="overlay">
+          <div class="text">03/10 (mike)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-11.png">
+        <a href="daily/03/03-11.html">
+          <div class="overlay">
+          <div class="text">03/11 (nvp)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-12.png">
+        <a href="daily/03/03-12.html">
+          <div class="overlay">
+          <div class="text">03/12 (sid)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-13.png">
+        <a href="daily/03/03-13.html">
+          <div class="overlay">
+          <div class="text">03/13 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-14.png">
+        <a href="daily/03/03-14.html">
+          <div class="overlay">
+          <div class="text">03/14 (max)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-16.png">
+        <a href="daily/03/03-16.html">
+          <div class="overlay">
+          <div class="text">03/16 (malaika + megan)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-17.png">
+        <a href="daily/03/03-17.html">
+          <div class="overlay">
+          <div class="text">03/17 (sonalee)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-18.png">
+        <a href="daily/03/03-18.html">
+          <div class="overlay">
+          <div class="text">03/18 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-19.png">
+        <a href="daily/03/03-19.html">
+          <div class="overlay">
+          <div class="text">03/19 (max c)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-20.png">
+        <a href="daily/03/03-20.html">
+          <div class="overlay">
+          <div class="text">03/20 (pao)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-21.png">
+        <a href="daily/03/03-21.html">
+          <div class="overlay">
+          <div class="text">03/21 (sophia)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-23.png">
+        <a href="daily/03/03-23.html">
+          <div class="overlay">
+          <div class="text">03/23 (max c)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-24.png">
+        <a href="daily/03/03-24.html">
+          <div class="overlay">
+          <div class="text">03/24 (max c)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-25.png">
+        <a href="daily/03/03-25.html">
+          <div class="overlay">
+          <div class="text">03/25 (maddie)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-26.png">
+        <a href="daily/03/03-26.html">
+          <div class="overlay">
+          <div class="text">03/26 (jess g)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-27.png">
+        <a href="daily/03/03-27.html">
+          <div class="overlay">
+          <div class="text">03/27 (jess g)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-28.png">
+        <a href="daily/03/03-28.html">
+          <div class="overlay">
+          <div class="text">03/28 (david m)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-30.png">
+        <a href="daily/03/03-30.html">
+          <div class="overlay">
+          <div class="text">03/30 (sid)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/03-31.png">
+        <a href="daily/03/03-31.html">
+          <div class="overlay">
+          <div class="text">03/31 (brian t)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-01.png">
+        <a href="daily/04/04-01.html">
+          <div class="overlay">
+          <div class="text">04/01 (greg)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-02.png">
+        <a href="daily/04/04-02.html">
+          <div class="overlay">
+          <div class="text">04/02 (ross)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-03.png">
+        <a href="daily/04/04-03.html">
+          <div class="overlay">
+          <div class="text">04/03 (brendan s)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-04.png">
+        <a href="daily/04/04-04.html">
+          <div class="overlay">
+          <div class="text">04/04 (katja)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-06.png">
+        <a href="daily/04/04-06.html">
+          <div class="overlay">
+          <div class="text">04/06 (kate h)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-07.png">
+        <a href="daily/04/04-07.html">
+          <div class="overlay">
+          <div class="text">04/07 (lyle)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-08.png">
+        <a href="daily/04/04-08.html">
+          <div class="overlay">
+          <div class="text">04/08 (evan k)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-09.png">
+        <a href="daily/04/04-09.html">
+          <div class="overlay">
+          <div class="text">04/09 (brian t)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-10.png">
+        <a href="daily/04/04-10.html">
+          <div class="overlay">
+          <div class="text">04/10 (rachel)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-11.png">
+        <a href="daily/04/04-11.html">
+          <div class="overlay">
+          <div class="text">04/11 (maddie)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-13.png">
+        <a href="daily/04/04-13.html">
+          <div class="overlay">
+          <div class="text">04/13 (josh)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-14.png">
+        <a href="daily/04/04-14.html">
+          <div class="overlay">
+          <div class="text">04/14 (derek)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-15.png">
+        <a href="daily/04/04-15.html">
+          <div class="overlay">
+          <div class="text">04/15 (parker)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-16.png">
+        <a href="daily/04/04-16.html">
+          <div class="overlay">
+          <div class="text">04/16 (ezra + john l)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-17.png">
+        <a href="daily/04/04-17.html">
+          <div class="overlay">
+          <div class="text">04/17 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-18.png">
+        <a href="daily/04/04-18.html">
+          <div class="overlay">
+          <div class="text">04/18 (jenna)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-20.png">
+        <a href="daily/04/04-20.html">
+          <div class="overlay">
+          <div class="text">04/20 (paolo)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-21.png">
+        <a href="daily/04/04-21.html">
+          <div class="overlay">
+          <div class="text">04/21 (jess s)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-22.png">
+        <a href="daily/04/04-22.html">
+          <div class="overlay">
+          <div class="text">04/22 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-23.png">
+        <a href="daily/04/04-23.html">
+          <div class="overlay">
+          <div class="text">04/23 (luciano)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-24.png">
+        <a href="daily/04/04-24.html">
+          <div class="overlay">
+          <div class="text">04/24 (karen + matthew s)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-25.png">
+        <a href="daily/04/04-25.html">
+          <div class="overlay">
+          <div class="text">04/25 (chris p)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-27.png">
+        <a href="daily/04/04-27.html">
+          <div class="overlay">
+          <div class="text">04/27 (sara)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-28.png">
+        <a href="daily/04/04-28.html">
+          <div class="overlay">
+          <div class="text">04/28 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-29.png">
+        <a href="daily/04/04-29.html">
+          <div class="overlay">
+          <div class="text">04/29 (brian c)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/04-30.png">
+        <a href="daily/04/04-30.html">
+          <div class="overlay">
+          <div class="text">04/30 (sophia)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-01.png">
+        <a href="daily/05/05-01.html">
+          <div class="overlay">
+          <div class="text">05/01 (michael k)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-02.png">
+        <a href="daily/05/05-02.html">
+          <div class="overlay">
+          <div class="text">05/02 (john p)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-04.png">
+        <a href="daily/05/05-04.html">
+          <div class="overlay">
+          <div class="text">05/04 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-05.png">
+       <a href="daily/05/05-05.html">
+          <div class="overlay">
+          <div class="text">05/05 (katja)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-06.png">
+       <a href="daily/05/05-06.html">
+          <div class="overlay">
+          <div class="text">05/06 (hoang-kim)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-07.png">
+        <a href="daily/05/05-07.html">
+          <div class="overlay">
+          <div class="text">05/07 (saswat)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-08.png">
+        <a href="daily/05/05-08.html">
+          <div class="overlay">
+          <div class="text">05/08 (quin)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-09.png">
+        <a href="daily/05/05-09.html">
+          <div class="overlay">
+          <div class="text">05/09 (malaika + marcus)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-11.png">
+        <a href="daily/05/05-11.html">
+          <div class="overlay">
+          <div class="text">05/11 (rasa)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-12.png">
+        <a href="daily/05/05-12.html">
+          <div class="overlay">
+          <div class="text">05/12 (yacob)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-13.png">
+        <a href="daily/05/05-13.html">
+          <div class="overlay">
+          <div class="text">05/13 (richard)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-14.png">
+        <a href="daily/05/05-14.html">
+          <div class="overlay">
+          <div class="text">05/14 (mike)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-15.png">
+        <a href="daily/05/05-15.html">
+          <div class="overlay">
+          <div class="text">05/15 (matthew h)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-16.png">
+        <a href="daily/05/05-16.html">
+          <div class="overlay">
+          <div class="text">05/16 (nate)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-18.png">
+        <a href="daily/05/05-18.html">
+          <div class="overlay">
+          <div class="text">05/18 (emma o)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-19.png">
+        <a href="daily/05/05-19.html">
+          <div class="overlay">
+          <div class="text">05/19 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-20.png">
+        <a href="daily/05/05-20.html">
+          <div class="overlay">
+          <div class="text">05/20 (sally)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-21.png">
+        <a href="daily/05/05-21.html">
+          <div class="overlay">
+          <div class="text">05/21 (emily)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-22.png">
+        <a href="daily/05/05-22.html">
+          <div class="overlay">
+          <div class="text">05/22 (james)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-23.png">
+        <a href="daily/05/05-23.html">
+          <div class="overlay">
+          <div class="text">05/23 (adesina)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-25.png">
+        <a href="daily/05/05-25.html">
+          <div class="overlay">
+          <div class="text">05/25 (adam)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-26.png">
+        <a href="daily/05/05-26.html">
+          <div class="overlay">
+          <div class="text">05/26 (nathaniel)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-27.png">
+        <a href="daily/05/05-27.html">
+          <div class="overlay">
+          <div class="text">05/27 (ian)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-28.png">
+        <a href="daily/05/05-28.html">
+          <div class="overlay">
+          <div class="text">05/28 (sal)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-29.png">
+        <a href="daily/05/05-29.html">
+          <div class="overlay">
+          <div class="text">05/29 (laura)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/05-30.png">
+        <a href="daily/05/05-30.html">
+          <div class="overlay">
+          <div class="text">05/30 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-01.png">
+        <a href="daily/06/06-01.html">
+          <div class="overlay">
+          <div class="text">06/01 (mollie)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-02.png">
+        <a href="daily/06/06-02.html">
+          <div class="overlay">
+          <div class="text">06/02 (jessie)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-03.png">
+        <a href="daily/06/06-03.html">
+          <div class="overlay">
+          <div class="text">06/03 (billy)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-04.png">
+        <a href="daily/06/06-04.html">
+          <div class="overlay">
+          <div class="text">06/04 (bill)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-05.png">
+        <a href="daily/06/06-05.html">
+          <div class="overlay">
+          <div class="text">06/05 (sam e)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-06.png">
+        <a href="daily/06/06-06.html">
+          <div class="overlay">
+          <div class="text">06/06 (zach)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-08.png">
+        <a href="daily/06/06-08.html">
+          <div class="overlay">
+          <div class="text">06/08 (brooke)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-09.png">
+        <a href="daily/06/06-09.html">
+          <div class="overlay">
+          <div class="text">06/09 (ada)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-10.png">
+        <a href="daily/06/06-10.html">
+          <div class="overlay">
+          <div class="text">06/10 (alina)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-11.png">
+        <a href="daily/06/06-11.html">
+          <div class="overlay">
+          <div class="text">06/11 (jess s)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-12.png">
+        <a href="daily/06/06-12.html">
+          <div class="overlay">
+          <div class="text">06/12 (olivia)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-13.png">
+        <a href="daily/06/06-13.html">
+          <div class="overlay">
+          <div class="text">06/13 (kate h)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-15.png">
+        <a href="daily/06/06-15.html">
+          <div class="overlay">
+          <div class="text">06/15 (ali)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-16.png">
+        <a href="daily/06/06-16.html">
+          <div class="overlay">
+          <div class="text">06/16 (jessie)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-17.png">
+        <a href="daily/06/06-17.html">
+          <div class="overlay">
+          <div class="text">06/17 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-18.png">
+        <a href="daily/06/06-18.html">
+          <div class="overlay">
+          <div class="text">06/18 (tyler)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-19.png">
+        <a href="daily/06/06-19.html">
+          <div class="overlay">
+          <div class="text">06/19 (martina)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+   <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-20.png">
+        <a href="daily/06/06-20.html">
+          <div class="overlay">
+          <div class="text">06/20 (matt ma)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-22.png">
+        <a href="daily/06/06-22.html">
+          <div class="overlay">
+          <div class="text">06/22 (emma o)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-23.png">
+        <a href="daily/06/06-23.html">
+          <div class="overlay">
+          <div class="text">06/23 (amanda)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-24.png">
+        <a href="daily/06/06-24.html">
+          <div class="overlay">
+          <div class="text">06/24 (jesse)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-25.png">
+        <a href="daily/06/06-25.html">
+          <div class="overlay">
+          <div class="text">06/25 (drew)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-26.png">
+        <a href="daily/06/06-26.html">
+          <div class="overlay">
+          <div class="text">06/26 (leonard)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-27.png">
+        <a href="daily/06/06-27.html">
+          <div class="overlay">
+          <div class="text">06/27 (paolo)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-29.png">
+        <a href="daily/06/06-29.html">
+          <div class="overlay">
+          <div class="text">06/29 (paolo)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/06-30.png">
+        <a href="daily/06/06-30.html">
+          <div class="overlay">
+          <div class="text">06/30 (ardian)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-01.png">
+        <a href="daily/07/07-01.html">
+          <div class="overlay">
+          <div class="text">07/01 (david k)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-02.png">
+        <a href="daily/07/07-02.html">
+          <div class="overlay">
+          <div class="text">07/02 (larry)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-03.png">
+        <a href="daily/07/07-03.html">
+          <div class="overlay">
+          <div class="text">07/03 (kate l)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-04.png">
+        <a href="daily/07/07-04.html">
+          <div class="overlay">
+          <div class="text">07/04 (claire)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-06.png">
+        <a href="daily/07/07-06.html">
+          <div class="overlay">
+          <div class="text">07/06 (rebecca g)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-07.png">
+        <a href="daily/07/07-07.html">
+          <div class="overlay">
+          <div class="text">07/07 (nathan)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-08.png">
+        <a href="daily/07/07-08.html">
+          <div class="overlay">
+          <div class="text">07/08 (ben zo)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-09.png">
+        <a href="daily/07/07-09.html">
+          <div class="overlay">
+          <div class="text">07/09 (emma f)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-10.png">
+        <a href="daily/07/07-10.html">
+          <div class="overlay">
+          <div class="text">07/10 (kyraleese)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-11.png">
+        <a href="daily/07/07-11.html">
+          <div class="overlay">
+          <div class="text">07/11 (rahul)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-13.png">
+        <a href="daily/07/07-13.html">
+          <div class="overlay">
+          <div class="text">07/13 (cam + malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-14.png">
+        <a href="daily/07/07-14.html">
+          <div class="overlay">
+          <div class="text">07/14 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-15.png">
+        <a href="daily/07/07-15.html">
+          <div class="overlay">
+          <div class="text">07/15 (izzy)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-16.png">
+        <a href="daily/07/07-16.html">
+          <div class="overlay">
+          <div class="text">07/16 (andrew peri)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-17.png">
+        <a href="daily/07/07-17.html">
+          <div class="overlay">
+          <div class="text">07/17 (matt mo)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-18.png">
+        <a href="daily/07/07-18.html">
+          <div class="overlay">
+          <div class="text">07/18 (nate)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-20.png">
+        <a href="daily/07/07-20.html">
+          <div class="overlay">
+          <div class="text">07/20 (neville)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-21.png">
+        <a href="daily/07/07-21.html">
+          <div class="overlay">
+          <div class="text">07/21 (rachel)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-22.png">
+        <a href="daily/07/07-22.html">
+          <div class="overlay">
+          <div class="text">07/22 (nina)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-23.png">
+        <a href="daily/07/07-23.html">
+          <div class="overlay">
+          <div class="text">07/23 (will p)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-24.png">
+        <a href="daily/07/07-24.html">
+          <div class="overlay">
+          <div class="text">07/24 (soleil)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-25.png">
+        <a href="daily/07/07-25.html">
+          <div class="overlay">
+          <div class="text">07/25 (alina)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-27.png">
+        <a href="daily/07/07-27.html">
+          <div class="overlay">
+          <div class="text">07/27 (michael l)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-28.png">
+        <a href="daily/07/07-28.html">
+          <div class="overlay">
+          <div class="text">07/28 (ryan f)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-29.png">
+        <a href="daily/07/07-29.html">
+          <div class="overlay">
+          <div class="text">07/29 (jonathan o)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-30.png">
+        <a href="daily/07/07-30.html">
+          <div class="overlay">
+          <div class="text">07/30 (ada)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/07-31.png">
+        <a href="daily/07/07-31.html">
+          <div class="overlay">
+          <div class="text">07/31 (deb k)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-01.png">
+        <a href="daily/08/08-01.html">
+          <div class="overlay">
+          <div class="text">08/01 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-03.png">
+        <a href="daily/08/08-03.html">
+          <div class="overlay">
+          <div class="text">08/03 (allegra)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-04.png">
+        <a href="daily/08/08-04.html">
+          <div class="overlay">
+          <div class="text">08/04 (norah + dob)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-05.png">
+        <a href="daily/08/08-05.html">
+          <div class="overlay">
+          <div class="text">08/05 (shmuel)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-06.png">
+        <a href="daily/08/08-06.html">
+          <div class="overlay">
+          <div class="text">08/06 (david)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-07.png">
+        <a href="daily/08/08-07.html">
+          <div class="overlay">
+          <div class="text">08/07 (finn)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-08.png">
+        <a href="daily/08/08-08.html">
+          <div class="overlay">
+          <div class="text">08/08 (rachel)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-10.png">
+        <a href="daily/08/08-10.html">
+          <div class="overlay">
+          <div class="text">08/10 (matthew l)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-11.png">
+        <a href="daily/08/08-11.html">
+          <div class="overlay">
+          <div class="text">08/11 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-12.png">
+        <a href="daily/08/08-12.html">
+          <div class="overlay">
+          <div class="text">08/12 (lawrence)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-13.png">
+        <a href="daily/08/08-13.html">
+          <div class="overlay">
+          <div class="text">08/13 (david w)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-14.png">
+        <a href="daily/08/08-14.html">
+          <div class="overlay">
+          <div class="text">08/14 (will n)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-15.png">
+        <a href="daily/08/08-15.html">
+          <div class="overlay">
+          <div class="text">08/15 (matthew s)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-17.png">
+        <a href="daily/08/08-17.html">
+          <div class="overlay">
+          <div class="text">08/17 (brian g)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-18.png">
+        <a href="daily/08/08-18.html">
+          <div class="overlay">
+          <div class="text">08/18 (rebecca g)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-19.png">
+        <a href="daily/08/08-19.html">
+          <div class="overlay">
+          <div class="text">08/19 (jeremy k)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-20.png">
+        <a href="daily/08/08-20.html">
+          <div class="overlay">
+          <div class="text">08/20 (sally)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-21.png">
+        <a href="daily/08/08-21.html">
+          <div class="overlay">
+          <div class="text">08/21 (doug)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-22.png">
+        <a href="daily/08/08-22.html">
+          <div class="overlay">
+          <div class="text">08/22 (emma o)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-24.png">
+        <a href="daily/08/08-24.html">
+          <div class="overlay">
+          <div class="text">08/24 (sophia)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-25.png">
+        <a href="daily/08/08-25.html">
+          <div class="overlay">
+          <div class="text">08/25 (erik)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-26.png">
+       <a href="daily/08/08-26.html">
+          <div class="overlay">
+          <div class="text">08/26 (mollie + susan)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-27.png">
+        <a href="daily/08/08-27.html">
+          <div class="overlay">
+          <div class="text">08/27 (tom t)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-28.png">
+        <a href="daily/08/08-28.html">
+          <div class="overlay">
+          <div class="text">08/28 (brandon + brooke)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-29.png">
+        <a href="daily/08/08-29.html">
+          <div class="overlay">
+          <div class="text">08/29 (wyna)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/08-31.png">
+        <a href="daily/08/08-31.html">
+          <div class="overlay">
+          <div class="text">08/31 (cindy)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-01.png">
+        <a href="daily/09/09-01.html">
+          <div class="overlay">
+          <div class="text">09/01 (wyna)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-02.png">
+        <a href="daily/09/09-02.html">
+          <div class="overlay">
+          <div class="text">09/02 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-03.png">
+        <a href="daily/09/09-03.html">
+          <div class="overlay">
+          <div class="text">09/03 (ryan m)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-04.png">
+        <a href="daily/09/09-04.html">
+          <div class="overlay">
+          <div class="text">09/04 (sara)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-05.png">
+        <a href="daily/09/09-05.html">
+          <div class="overlay">
+          <div class="text">09/05 (steve)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-07.png">
+        <a href="daily/09/09-07.html">
+          <div class="overlay">
+          <div class="text">09/07 (amanda)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-08.png">
+        <a href="daily/09/09-08.html">
+          <div class="overlay">
+          <div class="text">09/08 (parker)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-09.png">
+        <a href="daily/09/09-09.html">
+          <div class="overlay">
+          <div class="text">09/09 (emma o)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-10.png">
+        <a href="daily/09/09-10.html">
+          <div class="overlay">
+          <div class="text">09/10 (brendan q)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-11.png">
+        <a href="daily/09/09-11.html">
+          <div class="overlay">
+          <div class="text">09/11 (matt ga)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-12.png">
+        <a href="daily/09/09-12.html">
+          <div class="overlay">
+          <div class="text">09/12 (david k)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-14.png">
+        <a href="daily/09/09-14.html">
+          <div class="overlay">
+          <div class="text">09/14 (robyn)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-15.png">
+        <a href="daily/09/09-15.html">
+          <div class="overlay">
+          <div class="text">09/15 (adam)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-16.png">
+        <a href="daily/09/09-16.html">
+          <div class="overlay">
+          <div class="text">09/16 (sonali)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-17.png">
+        <a href="daily/09/09-17.html">
+          <div class="overlay">
+          <div class="text">09/17 (maya)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-18.png">
+        <a href="daily/09/09-18.html">
+          <div class="overlay">
+          <div class="text">09/18 (marshall)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-19.png">
+        <a href="daily/09/09-19.html">
+          <div class="overlay">
+          <div class="text">09/19 (charlotte)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-21.png">
+        <a href="daily/09/09-21.html">
+          <div class="overlay">
+          <div class="text">09/21 (sara)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-22.png">
+        <a href="daily/09/09-22.html">
+          <div class="overlay">
+          <div class="text">09/22 (ben t)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-23.png">
+        <a href="daily/09/09-23.html">
+          <div class="overlay">
+          <div class="text">09/23 (mikkel)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-24.png">
+        <a href="daily/09/09-24.html">
+          <div class="overlay">
+          <div class="text">09/24 (rory)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-25.png">
+        <a href="daily/09/09-25.html">
+          <div class="overlay">
+          <div class="text">09/25 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-26.png">
+        <a href="daily/09/09-26.html">
+          <div class="overlay">
+          <div class="text">09/26 (david h)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-28.png">
+        <a href="daily/09/09-28.html">
+          <div class="overlay">
+          <div class="text">09/28 (wouter)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-29.png">
+        <a href="daily/09/09-29.html">
+          <div class="overlay">
+          <div class="text">09/29 (katja)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/09-30.png">
+        <a href="daily/09/09-30.html">
+          <div class="overlay">
+          <div class="text">09/30 (will r)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-01.png">
+        <a href="daily/10/10-01.html">
+          <div class="overlay">
+          <div class="text">10/01 (shreya)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-02.png">
+        <a href="daily/10/10-02.html">
+          <div class="overlay">
+          <div class="text">10/02 (brett)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-03.png">
+        <a href="daily/10/10-03.html">
+          <div class="overlay">
+          <div class="text">10/03 (andrew perr)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-05.png">
+       <a href="daily/10/10-05.html">
+          <div class="overlay">
+          <div class="text">10/05 (beth)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-06.png">
+        <a href="daily/10/10-06.html">
+          <div class="overlay">
+          <div class="text">10/06 (jack)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-07.png">
+        <a href="daily/10/10-07.html">
+          <div class="overlay">
+          <div class="text">10/07 (jenna)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-08.png">
+        <a href="daily/10/10-08.html">
+          <div class="overlay">
+          <div class="text">10/08 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-09.png">
+        <a href="daily/10/10-09.html">
+          <div class="overlay">
+          <div class="text">10/09 (steph)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-10.png">
+        <a href="daily/10/10-10.html">
+          <div class="overlay">
+          <div class="text">10/10 (maya + malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-12.png">
+        <a href="daily/10/10-12.html">
+          <div class="overlay">
+          <div class="text">10/12 (matt b)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-13.png">
+        <a href="daily/10/10-13.html">
+          <div class="overlay">
+          <div class="text">10/13 (drew + samantha)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-14.png">
+        <a href="daily/10/10-14.html">
+          <div class="overlay">
+          <div class="text">10/14 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-15.png">
+        <a href="daily/10/10-15.html">
+          <div class="overlay">
+          <div class="text">10/15 (rafa)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-16.png">
+        <a href="daily/10/10-16.html">
+          <div class="overlay">
+          <div class="text">10/16 (kevin)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-17.png">
+        <a href="daily/10/10-17.html">
+          <div class="overlay">
+          <div class="text">10/17 (michael b)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-19.png">
+        <a href="daily/10/10-19.html">
+          <div class="overlay">
+          <div class="text">10/19 (jesse j)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-20.png">
+        <a href="daily/10/10-20.html">
+          <div class="overlay">
+          <div class="text">10/20 (peter g)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-21.png">
+        <a href="daily/10/10-21.html">
+          <div class="overlay">
+          <div class="text">10/21 (sinclair + benjamin)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-22.png">
+        <a href="daily/10/10-22.html">
+          <div class="overlay">
+          <div class="text">10/22 (jeremy h)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-23.png">
+        <a href="daily/10/10-23.html">
+          <div class="overlay">
+          <div class="text">10/23 (ben zi)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-24.png">
+        <a href="daily/10/10-24.html">
+          <div class="overlay">
+          <div class="text">10/24 (evan b)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-26.png">
+        <a href="daily/10/10-26.html">
+          <div class="overlay">
+          <div class="text">10/26 (zach)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-27.png">
+        <a href="daily/10/10-27.html">
+          <div class="overlay">
+          <div class="text">10/27 (michael m)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-28.png">
+        <a href="daily/10/10-28.html">
+          <div class="overlay">
+          <div class="text">10/28 (al)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-29.png">
+        <a href="daily/10/10-29.html">
+          <div class="overlay">
+          <div class="text">10/29 (michael k)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-30.png">
+        <a href="daily/10/10-30.html">
+          <div class="overlay">
+          <div class="text">10/30 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/10-31.png">
+        <a href="daily/10/10-31.html">
+          <div class="overlay">
+          <div class="text">10/31 (jess g)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-02.png">
+        <a href="daily/11/11-02.html">
+          <div class="overlay">
+          <div class="text">11/02 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-03.png">
+        <a href="daily/11/11-03.html">
+          <div class="overlay">
+          <div class="text">11/03 (sinclair)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-04.png">
+        <a href="daily/11/11-04.html">
+          <div class="overlay">
+          <div class="text">11/04 (steve j)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-05.png">
+        <a href="daily/11/11-05.html">
+          <div class="overlay">
+          <div class="text">11/05 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-06.png">
+        <a href="daily/11/11-06.html">
+          <div class="overlay">
+          <div class="text">11/06 (cale)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-07.png">
+        <a href="daily/11/11-07.html">
+          <div class="overlay">
+          <div class="text">11/07 (rafael)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-09.png">
+        <a href="daily/11/11-09.html">
+          <div class="overlay">
+          <div class="text">11/09 (peter a)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-10.png">
+        <a href="daily/11/11-10.html">
+          <div class="overlay">
+          <div class="text">11/10 (rebecca m)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-11.png">
+        <a href="daily/11/11-11.html">
+          <div class="overlay">
+          <div class="text">11/11 (nathaniel)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-12.png">
+        <a href="daily/11/11-12.html">
+          <div class="overlay">
+          <div class="text">11/12 (matt gr)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-13.png">
+        <a href="daily/11/11-13.html">
+          <div class="overlay">
+          <div class="text">11/13 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-14.png">
+        <a href="daily/11/11-14.html">
+          <div class="overlay">
+          <div class="text">11/14 (annie)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-16.png">
+        <a href="daily/11/11-16.html">
+          <div class="overlay">
+          <div class="text">11/16 (ben s)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-17.png">
+        <a href="daily/11/11-17.html">
+          <div class="overlay">
+          <div class="text">11/17 (ricky)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-18.png">
+        <a href="daily/11/11-18.html">
+          <div class="overlay">
+          <div class="text">11/18 (jackson)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-19.png">
+        <a href="daily/11/11-19.html">
+          <div class="overlay">
+          <div class="text">11/19 (hoang-kim)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-20.png">
+        <a href="daily/11/11-20.html">
+          <div class="overlay">
+          <div class="text">11/20 (everdeen)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-21.png">
+        <a href="daily/11/11-21.html">
+          <div class="overlay">
+          <div class="text">11/21 (stephanie c)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-23.png">
+        <a href="daily/11/11-23.html">
+          <div class="overlay">
+          <div class="text">11/23 (chris a)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-24.png">
+        <a href="daily/11/11-24.html">
+          <div class="overlay">
+          <div class="text">11/24 (rebecca g + ariela)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-25.png">
+        <a href="daily/11/11-25.html">
+          <div class="overlay">
+          <div class="text">11/25 (sam b)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-26.png">
+        <a href="daily/11/11-26.html">
+          <div class="overlay">
+          <div class="text">11/26 (emma o)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-27.png">
+        <a href="daily/11/11-27.html">
+          <div class="overlay">
+          <div class="text">11/27 (wyna)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-28.png">
+        <a href="daily/11/11-28.html">
+          <div class="overlay">
+          <div class="text">11/28 (paul st)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/11-30.png">
+        <a href="daily/11/11-30.html">
+          <div class="overlay">
+          <div class="text">11/30 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-01.png">
+        <a href="daily/12/12-01.html">
+          <div class="overlay">
+          <div class="text">12/01 (sinclair)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-02.png">
+        <a href="daily/12/12-02.html">
+          <div class="overlay">
+          <div class="text">12/02 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-03.png">
+        <a href="daily/12/12-03.html">
+          <div class="overlay">
+          <div class="text">12/03 (andy)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-04.png">
+        <a href="daily/12/12-04.html">
+          <div class="overlay">
+          <div class="text">12/04 (pete + claire)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-05.png">
+        <a href="daily/12/12-05.html">
+          <div class="overlay">
+          <div class="text">12/05 (lloyd)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-07.png">
+        <a href="daily/12/12-07.html">
+          <div class="overlay">
+          <div class="text">12/07 (jeff)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-08.png">
+        <a href="daily/12/12-08.html">
+          <div class="overlay">
+          <div class="text">12/08 (erica)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-09.png">
+        <a href="daily/12/12-09.html">
+          <div class="overlay">
+          <div class="text">12/09 (malaika)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-10.png">
+        <a href="daily/12/12-10.html">
+          <div class="overlay">
+          <div class="text">12/10 (david r)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-11.png">
+        <a href="daily/12/12-11.html">
+          <div class="overlay">
+          <div class="text">12/11 (scott)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-12.png">
+        <a href="daily/12/12-12.html">
+          <div class="overlay">
+          <div class="text">12/12 (anna)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-14.png">
+        <a href="daily/12/12-14.html">
+          <div class="overlay todays-puzzle">
+          <div class="text">12/14 (sid)</div>
+          </div>
+        </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-15.png">
+        <!-- <a href="test.html"> -->
+          <div class="overlay">
+          <div class="text">12/15 (claimed by rachel)</div>
+          </div>
+        <!-- </a> -->
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-16.png">
+        <!-- <a href="test.html"> -->
+          <div class="overlay">
+          <div class="text">12/16 (claimed by richard)</div>
+          </div>
+        <!-- </a> -->
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-17.png">
+        <!-- <a href="test.html"> -->
+          <div class="overlay">
+          <div class="text">12/17 (claimed by chris p)</div>
+          </div>
+        <!-- </a> -->
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-18.png">
+        <!-- <a href="01-21.html"> -->
+          <div class="overlay">
+          <div class="text">12/18 (claimed by malaika)</div>
+          </div>
+        <!-- </a> -->
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-19.png">
+        <!-- <a href="test.html"> -->
+          <div class="overlay">
+          <div class="text">12/19 (claimed by quiara)</div>
+          </div>
+        <!-- </a> -->
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-21.png">
+        <!-- <a href="01-21.html"> -->
+          <div class="overlay">
+          <div class="text">12/21 (claimed by malaika)</div>
+          </div>
+        <!-- </a> -->
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-22.png">
+        <!-- <a href="test.html"> -->
+          <div class="overlay">
+          <div class="text">12/22 (claimed by brandon k)</div>
+          </div>
+        <!-- </a> -->
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-23.png">
+        <!-- <a href="test.html"> -->
+          <div class="overlay">
+          <div class="text">12/23 (claimed by matthew s)</div>
+          </div>
+        <!-- </a> -->
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-24.png">
+        <!-- <a href="test.html"> -->
+          <div class="overlay">
+          <div class="text">12/24 (claimed by sid)</div>
+          </div>
+        <!-- </a> -->
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-25.png">
+        <!-- <a href="test.html"> -->
+          <div class="overlay">
+          <div class="text">12/25 (claimed by brooke)</div>
+          </div>
+        <!-- </a> -->
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-26.png">
+        <!-- <a href="test.html"> -->
+          <div class="overlay">
+          <div class="text">12/26 (claimed by sara)</div>
+          </div>
+        <!-- </a> -->
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-28.png">
+        <!-- <a href="test.html"> -->
+          <div class="overlay">
+          <div class="text">12/28 (claimed by ada)</div>
+          </div>
+        <!-- </a> -->
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-29.png">
+        <!-- <a href="test.html"> -->
+          <div class="overlay">
+          <div class="text">12/29 (claimed by adam)</div>
+          </div>
+        <!-- </a> -->
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <img src="data/puzzle_images/12-30.png">
+        <!-- <a href="test.html"> -->
+          <div class="overlay">
+          <div class="text">12/30 (claimed by paolo)</div>
+          </div>
+        <!-- </a> -->
+    </div>
+  </div>
